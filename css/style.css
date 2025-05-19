@@ -35,13 +35,13 @@ html, body {
 
 body {
   background-size: cover;
-  background-color: white;
+  background-image: url('../images/background.jpg');
 }
 
-.header {
+/* .header {
   background-size: cover;
   background-color: #f1efe9;
-}
+} */
 
 .main-logo {
   text-align: center;
@@ -115,14 +115,17 @@ a:hover {
 
 .card-title,
 .hero-text {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
   padding: 20px;
   border-radius: 10px;
   display: inline-block;
   margin: 0 auto;
   color: black;
   font-weight: bold;
+  text-align: center;
 }
+
+
 
 /* Custom Cards */
 .custom-card-1 {
@@ -156,6 +159,8 @@ a:hover {
   color: rgba(172, 198, 30);
   font-weight: bold;
   border-radius: 8px;
+  display: flex;
+  height: 90%;
 }
 
 /* Product Cards */
@@ -164,7 +169,7 @@ a:hover {
   color: rgba(172, 198, 30);
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 95%;
   margin-bottom: 10px;
 }
 
@@ -207,7 +212,7 @@ a:hover {
 .aboutUsText,
 .catText,
 .locationText {
-  color: black;
+  color: white;
 }
 
 .intro,
