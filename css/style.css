@@ -164,7 +164,7 @@ a:hover {
   color: rgba(172, 198, 30);
   display: flex;
   flex-direction: column;
-  height: 90%;
+  height: 100%;
   margin-bottom: 10px;
 }
 
