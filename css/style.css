@@ -1,0 +1,258 @@
+/* Preloader full screen overlay */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* or your theme color */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Spinner animation */
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid rgba(210, 255, 47, 0.845); /* brand color */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+/* Spin keyframe */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+html, body {
+                max-width: 100%;
+                overflow-x: hidden;
+        }
+
+body {
+            /* background-image: url('../images/bodyBG.jpg'); */
+            background-size: cover;
+            background-color: rgba(255, 255, 255);
+        }
+
+        .header {
+            background-size: cover;
+            background-color: rgba(241, 239, 233);
+        }
+
+        .main-logo {
+            text-align: center;
+            border-radius: 10px;
+            background-image: url('../images/bodyBG.jpg');
+        }
+
+        .logo {
+            height: 150px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .nav-link {
+            color: rgba(172, 198, 30);
+        }
+
+        .nav-link:hover {
+            color: rgb(160, 160, 160);
+        }
+
+        .card {
+            margin: 10px;
+        }
+
+        .address, .contact-us, .quick-links {
+            text-align: center;
+            color: rgba(172, 198, 30);
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 20px 10px;
+        }
+
+        a:link, a:visited {
+            color: rgba(172, 198, 30);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(160, 160, 160);
+        }
+         .philoText, 
+         .collab-Text,
+         .aboutUsText,
+         .catText,
+         .locationText {
+            color: black;
+        }
+
+        .philosophy, 
+        .whatWeDo, 
+        .collab, 
+        .clients,
+        .aboutUs,
+        .catalogue,
+        .description,
+        .location {
+            position: relative;
+            padding: 10px 0;
+            background-size: cover;
+            background-position: center;
+            background-color: transparent;
+            border-radius: 20px;
+            color: rgba(172, 198, 30);
+            text-align: center;
+            margin-top: 10px;
+        }
+       
+        .whatWeDo {
+            position: relative;
+            padding: 10px 0;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            color: rgba(172, 198, 30);
+            text-align: center;
+            margin-top: 10px;
+        }
+        .intro, .products {
+            position: relative;
+            padding: 40px 0;
+            background-size: cover;
+            background-position: center;
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .intro {
+            background-image: url('../images/circuitBoard.jpg');
+        }
+
+        .products {
+            background-image: url('../images/shopping3.jpg');
+        }
+
+        .hero-text, .card-title {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        .custom-card-1 { 
+            background-image: url('../images/laptopRefurb.jpg'); 
+        }
+
+        .custom-card-2 { 
+            background-image: url('../images/keyboard.jpg'); 
+        }
+
+        .custom-card-3 { 
+            background-image: url('../images/monitor.jpg'); 
+        }
+        .custom-card-4 { 
+            background-image: url('../images/gamingSetup2.jpg'); 
+        }
+        
+        .custom-card-5 { 
+            background-image: url('../images/brokenMonitor.jpg'); 
+        }
+
+        .custom-card-1, .custom-card-2, .custom-card-3,
+        .custom-card-4, .custom-card-5 {
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: rgba(172, 198, 30);
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        .product-Card {
+            background: linear-gradient(rgba(241, 239, 233),rgb(184, 184, 184));
+            color: rgba(172, 198, 30);
+            display: flex;
+            flex-direction: column;
+            height: 90%;
+            margin-bottom: 10px;
+        }
+
+        .product-Button {
+            font-size: 13px;
+            margin-top: 10px;
+        }
+
+        .product-Title {
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100% !important;
+                margin: 10px auto;
+            }
+            .logo {
+                height: 100px;
+            }
+            .hero-text p {
+                font-size: 1rem;
+                padding: 10px;
+            }
+            .product-Card img {
+                height: auto;
+                width: 100%;
+            }
+        }
+
+        /* Fade-in Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.formGroup {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.contactInfo {
+    color: white;
+}
+
+.map {
+    padding: 20px;
+}
+
+.product-Spec,
+.product-Price {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+
