@@ -56,6 +56,33 @@ body {
             border-radius: 20px;
             padding: 10px;
         }
+        /* Navbar background */
+.navbar {
+  background-color: black;
+}
+
+/* Collapsed menu background and links */
+.navbar-collapse {
+  background-color: black; /* Same as the navbar */
+}
+
+.navbar-nav .nav-link {
+  color: rgba(210, 255, 47, 0.845);
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(160, 160, 160);
+  background-color: rgba(255, 255, 255, 0.1); /* optional hover effect */
+}
+
+/* Optional: style the toggler icon */
+.navbar-toggler {
+  border-color: rgba(210, 255, 47, 0.845);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(210, 255, 47, 0.845)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
+}
 
         .navbar {
             background-color: black;
@@ -151,11 +178,13 @@ body {
         }
 
         .hero-text, .card-title {
-            background: rgba(0, 0, 0, 0.25);
+            background: rgb(255, 255, 255, 0.3);
             padding: 20px;
             border-radius: 10px;
             display: inline-block;
             margin: 0 auto;
+            color: black;
+            font-weight: bold;
         }
 
         .custom-card-1 { 
