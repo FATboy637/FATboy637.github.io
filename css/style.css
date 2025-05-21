@@ -284,3 +284,35 @@ a:hover {
     width: 100%;
   }
 }
+
+.custom-carousel {
+  margin-top: 20px;
+}
+
+/* Base carousel image height (mobile first) */
+.custom-carousel .custom-Image {
+  height: 250px;
+  background-size: cover;
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .custom-carousel .custom-Image {
+    height: 350px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  .custom-carousel .custom-Image {
+    height: 500px;
+  }
+}
+
+/* Extra large screens */
+@media (min-width: 1200px) {
+  .custom-carousel .custom-Image {
+    height: 450px;
+  }
+}
+
