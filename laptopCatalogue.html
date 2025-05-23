@@ -1,205 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComputerHub | Laptops</title>
-    <link rel="icon" type="image/x-icon" href="/images/logoICO.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>ComputerHub | Laptops</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/logoICO.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div id="preloader">
-      <div class="spinner"></div>
-    </div>
+<body data-category="laptops">
 
-   <div class="header">
-        <div class="container text-center my-3">
-            <img class="logo" src="images/logo.jpg" alt="Computer Hub Logo">
-        </div>
-        
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header + Navbar -->
+  <div class="header">
+    <div class="container text-center my-3">
+      <img class="logo" src="images/logo.jpg" alt="Computer Hub Logo">
+    </div>
 
     <nav class="navbar navbar-expand-lg rounded mx-3">
-        <div class="container-fluid justify-content">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="aboutUs.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="locateUs.html">Locate Us</a></li>
-                </ul>
-            </div>
+      <div class="container-fluid justify-content">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutUs.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="locateUs.html">Locate Us</a></li>
+            <li class="nav-item">
+              <a class="nav-link position-relative" href="cart.html">
+                <i class="bi bi-cart3"></i>
+                <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">0</span>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-</div>
-     <div class="container catalogue fade-in">
-        <div class="">
-            <h4>Affordable. Reliable. Sustainable – Discover the Power of Refurbished Laptops</h4>
-            <div class="catText">
-                <p class="catText">
-                    Refurbished laptops deliver powerful performance and dependable quality at a fraction of the cost of new devices. Ideal for students, professionals, and everyday users, these laptops are thoroughly tested and restored to meet high standards. By choosing refurbished, you not only save money but also help reduce electronic waste—making it a smart, sustainable choice without compromising on reliability or features.
-            </p>
-            </div>  
-        </div>
+  </div>
+
+  <!-- Catalogue Header -->
+  <div class="container catalogue fade-in">
+    <h4>Affordable. Reliable. Sustainable – Discover the Power of Refurbished Laptops</h4>
+    <p class="catText">
+      Refurbished laptops deliver powerful performance and dependable quality at a fraction of the cost of new devices.
+      Ideal for students, professionals, and everyday users, these laptops are thoroughly tested and restored to meet high standards.
+    </p>
+  </div>
+
+  <!-- Product Grid Placeholder -->
+  <div class="container my-5">
+    <div class="row" id="productGrid">
+      <!-- Dynamic product cards will load here via JS -->
     </div>
-
-     <div class="container description fade-in">
-        <div class="">
-            <h4>Laptops Available</h4>
-        </div>
-    </div>
-
-
-    <div class="container storeFront">
-        <div class="row justify-content-center">
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/HPProbook-removebg-preview.png" alt="Laptop">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">HP ProBook 4530s <br>- R1500.00</h4>
-                        <ul>
-                            <li class="product-Spec">Intel i3-2350M @ 2.3GHz</li>
-                            <li class="product-Spec">4GB RAM</li>
-                            <li class="product-Spec">500GB HDD</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/HPProbook-removebg-preview.png" alt="Computer">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">HP ProBook 4530s <br>- R1770.00</h4>
-                        <ul>
-                            <li class="product-Spec">Intel i3-2350M @ 2.3GHz</li>
-                            <li class="product-Spec">4GB RAM</li>
-                            <li class="product-Spec">128GB SSD</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/HPProbook-removebg-preview.png" alt="Networking">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">HP ProBook 4530s <br>- R1910.00</h4>
-                        <ul>
-                            <li class="product-Spec">Intel i3-2350M @ 2.3GHz</li>
-                            <li class="product-Spec">4GB RAM</li>
-                            <li class="product-Spec">256GB SSD</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/HPProbook-removebg-preview.png" alt="Peripherals">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">HP ProBook 4530s <br>- R2180.00</h4>
-                        <ul>
-                            <li class="product-Spec">Intel i3-2350M @ 2.3GHz</li>
-                            <li class="product-Spec">4GB RAM</li>
-                            <li class="product-Spec">512GB SSD</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/dellLatitudeE5570-removebg-preview.png" alt="Laptop">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">Dell Latitude E5570 <br>- R?</h4>
-                        <ul>
-                            <li class="product-Spec">Intel i7</li>
-                            <li class="product-Spec">8GB RAM</li>
-                            <li class="product-Spec">HDD/SSD?</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/Dell2in1-removebg-preview.png" alt="Computer">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">Dell Latitude 7210 2 in 1 <br>- R10 000.00</h4>
-                        <ul>
-                            <li class="product-Spec">Intel Core i5-10310U @ 1.70GHz</li>
-                            <li class="product-Spec">16GB RAM</li>
-                            <li class="product-Spec">256GB NVMe SSD</li>
-                            <li class="product-Spec">Windows 11 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/dellXPS-removebg-preview.png" alt="Networking">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">Dell XPS 15 9575<br>- R?</h4>
-                        <ul>
-                            <li class="product-Spec">Intel Core i7-8705G @ 3.1GHz</li>
-                            <li class="product-Spec">16GB RAM</li>
-                            <li class="product-Spec">256GB NVMe SSD</li>
-                            <li class="product-Spec">Radeon RX Vega M GL GPU</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/delllatitude-removebg-preview.png" alt="Peripherals">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">Dell Latitude 5430<br>- R?</h4>
-                        <ul>
-                            <li class="product-Spec">Intel Core i7-1265U @ 1.8GHz</li>
-                            <li class="product-Spec">16GB RAM</li>
-                            <li class="product-Spec">256GB NVMe SSD</li>
-                            <li class="product-Spec">Windows 10 Pro</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="card product-Card">
-                    <img class="card-img-top" src="images/8gbLaptopRam-removebg-preview.png" alt="Peripherals">
-                    <div class="card-body">
-                        <h4 class="card-title product-Title">Dato DDR4 RAM<br>- R450</h4>
-                        <ul>
-                            <li class="product-Spec">8GB</li>
-                            <li class="product-Spec">3200 MT/s </li>
-                            <li class="product-Spec">SO-DIMM</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+  </div>
 
     <div class="container clients">
-            <h4>Looking for Something Else?</h4> 
-        </div>
+      <h4>Looking for Something Else?</h4> 
+    </div>
 
-         <div class="container storeFront fade-in">
+    <div class="container storeFront fade-in">
         <div class="row justify-content-center">
         
             <div class="col-md-3 col-sm-6">
@@ -221,12 +88,12 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-3 col-sm-6">
                 <div class="card product-Card">
                     <img class="card-img-top" src="images/peripherals.jpg" alt="Peripherals">
                     <div class="card-body">
-                        <h4 class="card-title product-Title">Accessories</h4>
+                        <h4 class="card-title product-Title">Peripherals and Accessories</h4>
                         <a href="peripheralsCatalogue.html" class="btn btn-success product-Button">View Products</a>
                     </div>
                 </div>
@@ -234,50 +101,54 @@
         </div>
     </div>
 
-    <div class="container footer fade-in">
-      
-        <div class="row">
-            <div class="col-md-4 address">
-                <h4>Address:</h4>
-                <div class="contactInfo">
-                    <p>
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <a class="footer-Links" href="https://www.google.com/maps/dir//Unit+C12,+11+Havelock+Rd,+Willow+Park+Manor,+Pretoria,+0184" target="_blank">Unit C12, 11 Havelock Rd,<br>Willow Park Manor,<br>Pretoria, 0184</a>
-                    </p>
-                    <p>
-                        <i class="bi bi-collection-fill"></i>Collection in-store<br>
-                        <i class="bi bi-arrow-repeat"></i>7 Day Exhange<br>
-                        <i class="bi bi-credit-card-2-front-fill"></i>Secure Payments
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4"></div>
-            <div class="col-md-4 contact-us">
-                <h4>Contact Us:</h4>
-                <div class="contactInfo">
-                    <p>
-                        <i class="bi bi-telephone-fill"></i>084 706 1007<br>
-                        <i class="bi bi-whatsapp"></i>084 706 1007<br>
-                        <i class="bi bi-envelope-at-fill"></i><a href="mailto:repairs@computerhub.co.za">repairs@computerhub.co.za</a>
-                    </p>
-
-                    <h4>Quick Links:</h4>
-                    <p><i class="bi bi-facebook"></i><a href="https://web.facebook.com/people/Computer-Hub/61571842756671/">Facebook</a></p>
-                </div>
-                
-                
-                
-            </div>
+  <!-- Footer -->
+  <div class="container footer fade-in">
+    <div class="row">
+      <div class="col-md-4 address">
+        <h4>Address:</h4>
+        <div class="contactInfo">
+          <p>
+            <i class="bi bi-geo-alt-fill"></i>
+            <a class="footer-Links" href="https://www.google.com/maps/dir//Unit+C12,+11+Havelock+Rd,+Willow+Park+Manor,+Pretoria,+0184" target="_blank">
+              Unit C12, 11 Havelock Rd,<br>Willow Park Manor,<br>Pretoria, 0184
+            </a>
+          </p>
+          <p>
+            <i class="bi bi-collection-fill"></i>Collection in-store<br>
+            <i class="bi bi-arrow-repeat"></i>7 Day Exchange<br>
+            <i class="bi bi-credit-card-2-front-fill"></i>Secure Payments
+          </p>
         </div>
-        
-        <div class="container clients">
-            <h4>We Aim to Please Our Clients</h4> 
+      </div>
+
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4 contact-us">
+        <h4>Contact Us:</h4>
+        <div class="contactInfo">
+          <p>
+            <i class="bi bi-telephone-fill"></i>084 706 1007<br>
+            <i class="bi bi-whatsapp"></i>084 706 1007<br>
+            <i class="bi bi-envelope-at-fill"></i>
+            <a href="mailto:repairs@computerhub.co.za">repairs@computerhub.co.za</a>
+          </p>
+
+          <h4>Quick Links:</h4>
+          <p><i class="bi bi-facebook"></i><a href="https://web.facebook.com/people/Computer-Hub/61571842756671/">Facebook</a></p>
         </div>
+      </div>
     </div>
 
+    <div class="container clients">
+      <h4>We Aim to Please Our Clients</h4>
+    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/catalogue.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

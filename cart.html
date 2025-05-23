@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComputerHub | Locate Us</title>
-    <link rel="icon" type="image/x-icon" href="/images/logoICO.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>ComputerHub | Your Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/logoICO.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-     <div id="preloader">
+  <div id="preloader">
       <div class="spinner"></div>
     </div>
 
@@ -21,7 +20,7 @@
         </div>
 
         <nav class="navbar navbar-expand-lg rounded mx-3">
-            <div class="container-fluid justify-content-center">
+            <div class="container-fluid justify-content">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,37 +29,51 @@
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="aboutUs.html">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact Us</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link position-relative" href="cart.html">
-                                <i class="bi bi-cart3"></i>
-                                <span id="cart-count" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">0</span>
-                            </a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="locateUs.html">Locate Us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
-    
-    <div class="container location fade-in">
-        <div class="">
-            <h4>Where We Are</h4>
-            <div class="locationText">
-                <p class="locationText">
-                  <i class="bi bi-geo-alt-fill"></i>
-                  Unit C12, 11 Havelock Rd,<br>Willow Park Manor,<br>Pretoria, 0184
-            </p>
-            </div>  
-        </div>
-    </div>
-    <div class="container map">
-      <div class="ratio ratio-16x9">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.926656002474!2d28.327408674347947!3d-25.739938945225187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955f0b39c073c5%3A0xd6936db4cf7be3e4!2sComputer%20Hub!5e0!3m2!1sen!2sza!4v1747301217977!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
-      </div>
-    </div>
-    
 
-    <div class="container footer fade-in">
+    <div class="container my-5 cart">
+      <h2 class="text-center mb-4">Your Shopping Cart</h2>
+
+    <div id="cartItems" class="mb-4"></div>
+
+    <h4>Total: <span id="cartTotal">R0.00</span></h4>
+
+    <form id="orderForm" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="126bb3ff-f476-4e17-a090-c80f5ad6de3d">
+      <input type="hidden" name="subject" value="New Order from Computer Hub">
+      <input type="hidden" name="from_name" value="ComputerHub Website">
+      <input type="hidden" name="order_details" id="orderDetails">
+      <input type="hidden" name="email" value="repairs@computerhub.co.za">
+
+      
+      <div class="mb-3">
+        <label for="full_name" class="form-label">Your Name and Surname:</label>
+        <input type="text" class="form-control" id="full_name" name="full_name" required>
+      </div>
+
+
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number:</label>
+        <input type="tel" class="form-control" id="phone" name="phone" required pattern="^[0-9+\s()-]{7,15}$" placeholder="e.g. 084 123 4567">
+      </div>
+
+
+      <div class="mb-3">
+        <label for="user_email" class="form-label">Your Email (optional for confirmation):</label>
+        <input type="email" class="form-control" id="user_email" name="user_email">
+      </div>
+
+
+      <button type="submit" class="btn btn-success">Submit Order</button>
+    </form>
+  </div>
+
+  <div class="container footer fade-in">
       
         <div class="row">
             <div class="col-md-4 address">
@@ -91,20 +104,20 @@
                     <h4>Quick Links:</h4>
                     <p><i class="bi bi-facebook"></i><a href="https://web.facebook.com/people/Computer-Hub/61571842756671/">Facebook</a></p>
                 </div>
-                
-                
-                
             </div>
+
         </div>
-        
+
         <div class="container clients">
             <h4>We Aim to Please Our Clients</h4> 
         </div>
     </div>
 
-    <script src="js/script.js"></script>
-    <script src="js/catalogue.js"></script>
-    <script src="js/cart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/orderSlip.js"></script>
+  <script src="js/orderSubmit.js"></script> 
 </body>
 </html>

@@ -1,3 +1,8 @@
+#cart-count {
+  font-size: 0.75rem;
+  padding: 4px 6px;
+}
+
 /* Preloader full screen overlay */
 #preloader {
   position: fixed;
@@ -36,6 +41,7 @@ html, body {
 body {
   background-size: cover;
   background-image: url('../images/background.jpg');
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 /* .header {
@@ -163,14 +169,14 @@ a:hover {
   height: 90%;
 }
 
+
 /* Product Cards */
 .product-Card {
   background: linear-gradient(rgba(241, 239, 233), rgb(184, 184, 184));
   color: rgba(172, 198, 30);
   display: flex;
   flex-direction: column;
-  height: 95%;
-  margin-bottom: 10px;
+  height: 90%;
 }
 
 .product-Button {
@@ -316,4 +322,13 @@ a:hover {
     height: 450px;
   }
 }
+
+.cart {
+  color: black;
+  background-image: linear-gradient(rgba(241, 239, 233), rgb(184, 184, 184));
+  border-radius: 10px;
+}
+
+
+
 

@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "hp-4530s-500gb",
+    "name": "HP ProBook 4530s",
+    "price": 1500,
+    "image": "images/HPProbook-removebg-preview.png",
+    "brand": "HP",
+    "category": "laptops",
+    "specs": [
+      "Intel i3-2350M @ 2.3GHz",
+      "4GB RAM",
+      "500GB HDD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "hp-4530s-128ssd",
+    "name": "HP ProBook 4530s",
+    "price": 1770,
+    "image": "images/HPProbook-removebg-preview.png",
+    "brand": "HP",
+    "category": "laptops",
+    "specs": [
+      "Intel i3-2350M @ 2.3GHz",
+      "4GB RAM",
+      "128GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+   {
+    "id": "hp-4530s-500gb",
+    "name": "HP ProBook 4530s",
+    "price": 1910,
+    "image": "images/HPProbook-removebg-preview.png",
+    "brand": "HP",
+    "category": "laptops",
+    "specs": [
+      "Intel i3-2350M @ 2.3GHz",
+      "4GB RAM",
+      "256GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+   {
+    "id": "hp-4530s-500gb",
+    "name": "HP ProBook 4530s",
+    "price": 2180,
+    "image": "images/HPProbook-removebg-preview.png",
+    "brand": "HP",
+    "category": "laptops",
+    "specs": [
+      "Intel i3-2350M @ 2.3GHz",
+      "4GB RAM",
+      "512GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "dell-e5570",
+    "name": "Dell Latitude E5570",
+    "price": 0,
+    "image": "images/dellLatitudeE5570-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel i7",
+      "8GB RAM",
+      "HDD/SSD?",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "dell-7210",
+    "name": "Dell Latitude 7210 2 in 1",
+    "price": 10000,
+    "image": "images/Dell2in1-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel Core i5-10310U @ 1.70GHz",
+      "16GB RAM",
+      "256GB NVMe SSD",
+      "Windows 11 Pro"
+    ]
+  },
+
+  {
+    "id": "dell-XPS9575",
+    "name": "Dell XPS 15 9575",
+    "price": 0,
+    "image": "images/dellXPS-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel i7-8705G @ 3.1GHz",
+      "16GB RAM",
+      "256GB NVMe SSD",
+      "Radeon RX Vega M GL GPU",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "dell-5430",
+    "name": "Dell Latitude 5430",
+    "price": 0,
+    "image": "images/delllatitude-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel Core i7-1265U @ 1.8GHz",
+      "16GB RAM",
+      "256GB NVMe SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "dato-ddr4",
+    "name": "Dato DDR4 RAM",
+    "price": 450,
+    "image": "images/8gbLaptopRam-removebg-preview.png",
+    "brand": "Dato",
+    "category": "laptops",
+    "specs": [
+      "8GB",
+      "3200 MT/s",
+      "SO-DIMM"
+    ]
+  },
+  
+
+
+  {
+    "id": "combo-special",
+    "name": "Combo Special",
+    "price": 2600,
+    "image": "images/comboSpecial-removebg-preview.png",
+    "brand": "Mecer",
+    "category": "computers",
+    "specs": [
+      "Mecer Budget Desktop",
+      "22\" Dell Monitor",
+      "Keyboard and Mouse"
+    ]
+  },
+
+  {
+    "id": "mecer-budget",
+    "name": "Mecer Budget Desktop",
+    "price": 800,
+    "image": "images/mecerBudget-removebg-preview.png",
+    "brand": "Mecer",
+    "category": "computers",
+    "specs": [
+      "Intel i3-3220 @ 3.0GHz",
+      "4GB RAM",
+      "256GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "gigabyte-gaming-pc",
+    "name": "Gigabyte Gaming PC",
+    "price": 13000,
+    "image": "images/gamingBeast-removebg-preview.png",
+    "brand": "Gigabyte",
+    "category": "computers",
+    "specs": [
+      "Intel i7-6700 @ 3.40GHz",
+      "Nvidia GTX 1060 6GB",
+      "16GB RAM",
+      "250GB NVMe SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "gaming-pc",
+    "name": "Gaming PC",
+    "price": 5500,
+    "image": "images/gamingPC-removebg-preview.png",
+    "brand": "Intel",
+    "category": "computers",
+    "specs": [
+      "Intel i3-12100F @ 3.3GHz",
+      "Nvidia GeForce GT 730",
+      "8GB RAM",
+      "Samsung 980 500GB NVMe SSD",
+      "Windows 11 Pro"
+    ]
+  },
+
+  {
+    "id": "dell-vostro",
+    "name": "Dell Vostro",
+    "price": 3900,
+    "image": "images/dellVostro-removebg-preview.png",
+    "brand": "Dell",
+    "category": "computers",
+    "specs": [
+      "Intel i5-9500 @ 3.00GHz",
+      "16GB RAM",
+      "500GB NVMe SSD",
+      "1TB HDD",
+      "Windows 11 Pro"
+    ]
+  },
+
+  {
+    "id": "corsair-cx650",
+    "name": "Corsair CX650 Powersupply",
+    "price": 1400,
+    "image": "images/corsairPSU-removebg-preview.png",
+    "brand": "Corsair",
+    "category": "computers",
+    "specs": [
+      "650 Watt",
+      "ATX Powersupply",
+      "Brand New"
+    ]
+  },
+
+  {
+    "id": "cooler-master-paste",
+    "name": "Cooler Master Thermal Paste",
+    "price": 160,
+    "image": "images/computer.jpg",
+    "brand": "Cooler Master",
+    "category": "computers",
+    "specs": [
+      "High-Performance Thermal Paste"
+    ]
+  },
+
+  {
+    "id": "apacer-ssd-128",
+    "name": "Apacer SSD",
+    "price": 270,
+    "image": "images/networking.jpg",
+    "brand": "Apacer",
+    "category": "computers",
+    "specs": [
+      "2.5\" SATA",
+      "6GB/s Data Transfer",
+      "128GB"
+    ]
+  },
+
+  {
+    "id": "apacer-ssd-256",
+    "name": "Apacer SSD",
+    "price": 445,
+    "image": "images/peripherals.jpg",
+    "brand": "Apacer",
+    "category": "computers",
+    "specs": [
+      "2.5\" SATA",
+      "6GB/s Data Transfer",
+      "256GB"
+    ]
+  },
+
+  {
+    "id": "netac-ssd-256",
+    "name": "Netac SSD",
+    "price": 445,
+    "image": "images/netacSSD256-removebg-preview.png",
+    "brand": "Netac",
+    "category": "computers",
+    "specs": [
+      "2.5\" SATA",
+      "6GB/s Data Transfer",
+      "256GB"
+    ]
+  },
+
+  {
+    "id": "apacer-ssd-512",
+    "name": "Apacer SSD",
+    "price": 730,
+    "image": "images/apacer512SSD-removebg-preview.png",
+    "brand": "Apacer",
+    "category": "computers",
+    "specs": [
+      "2.5\" SATA",
+      "6GB/s Data Transfer",
+      "512GB"
+    ]
+  },
+
+  {
+    "id": "wd-elements-ssd",
+    "name": "WD Elements SSD",
+    "price": 800,
+    "image": "images/wdElementsSSD-removebg-preview.png",
+    "brand": "Western Digital",
+    "category": "computers",
+    "specs": [
+      "2.5\" SATA",
+      "6GB/s Data Transfer",
+      "480GB"
+    ]
+  },
+
+   {
+    "id": "tplink-t3u",
+    "name": "TP-Link Archer T3U Plus",
+    "price": 450,
+    "image": "images/tpLinkArcher-removebg-preview.png",
+    "brand": "TP-Link",
+    "category": "network-tools",
+    "specs": [
+      "High-Gain - Boost Wireless Range",
+      "867 Mbps on 5GHz / 400 Mbps on 2.4GHz",
+      "USB 3.0",
+      "MU-MIMO"
+    ]
+  },
+
+  {
+    "id": "tplink-archer-t3u",
+    "name": "TP-Link Archer T3U Plus",
+    "price": 450,
+    "image": "images/tpLinkArcher-removebg-preview.png",
+    "brand": "TP-Link",
+    "category": "network-tools",
+    "specs": [
+      "High-Gain - Boost Wireless Range",
+      "867 Mbps on 5GHz / 400 Mbps on 2.4GHz",
+      "USB 3.0",
+      "MU-MIMO"
+    ]
+  },
+
+  {
+    "id": "tplink-switch-5-port",
+    "name": "TP-Link Desktop Switch",
+    "price": 399,
+    "image": "images/5PortSwitch-removebg-preview.png",
+    "brand": "TP-Link",
+    "category": "network-tools",
+    "specs": [
+      "5-Port Gigabit",
+      "Plug & Play",
+      "Traffic Prioritization",
+      "Auto MDI/MDIX",
+      "Green Tech"
+    ]
+  },
+
+  {
+    "id": "tplink-switch-8-port",
+    "name": "TP-Link Desktop Switch",
+    "price": 520,
+    "image": "images/8PortSwitch-removebg-preview.png",
+    "brand": "TP-Link",
+    "category": "network-tools",
+    "specs": [
+      "8-Port Gigabit",
+      "Plug & Play",
+      "Traffic Prioritization",
+      "Auto MDI/MDIX",
+      "Green Tech"
+    ]
+  },
+
+  {
+    "id": "rj45-connectors",
+    "name": "RJ45 Connectors",
+    "price": 130,
+    "image": "images/rj45connectors-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "100 Pack",
+      "UTP CAT 6"
+    ]
+  },
+
+  {
+    "id": "rj45-boots",
+    "name": "RJ45 Boots",
+    "price": 60,
+    "image": "images/Rj45boots-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "100 Pack"
+    ]
+  },
+
+  {
+    "id": "hellerman-tyton-t18r",
+    "name": "HellermanTyton T18R",
+    "price": 20,
+    "image": "images/T18R-removebg-preview.png",
+    "brand": "HellermanTyton",
+    "category": "network-tools",
+    "specs": [
+      "Cable Ties",
+      "T18R",
+      "100 Pack"
+    ]
+  },
+
+  {
+    "id": "hellerman-tyton-t30r",
+    "name": "HellermanTyton T30R",
+    "price": 30,
+    "image": "images/T30R-removebg-preview.png",
+    "brand": "HellermanTyton",
+    "category": "network-tools",
+    "specs": [
+      "Cable Ties",
+      "T30R",
+      "100 Pack"
+    ]
+  },
+
+  {
+    "id": "hellerman-tyton-t50r",
+    "name": "HellermanTyton T50R",
+    "price": 50,
+    "image": "images/T50R-removebg-preview.png",
+    "brand": "HellermanTyton",
+    "category": "network-tools",
+    "specs": [
+      "Cable Ties",
+      "T50R (White)",
+      "100 Pack"
+    ]
+  },
+
+  {
+    "id": "ethernet-cable",
+    "name": "Ethernet Cable",
+    "price": 50,
+    "image": "images/ethernetCable-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "3 Meter",
+      "UTP CAT 6"
+    ]
+  },
+
+  {
+    "id": "bisutime-toolkit",
+    "name": "Bisutime 115 in 1 Toolset",
+    "price": 250,
+    "image": "images/bisutimeToolKit-removebg-preview.png",
+    "brand": "Bisutime",
+    "category": "network-tools",
+    "specs": [
+      "Multi-function",
+      "Watch, Phone and Computers",
+      "Chrome Vanadium"
+    ]
+  },
+
+  {
+    "id": "cable-installation-kit",
+    "name": "Cable Installation Kit",
+    "price": 250,
+    "image": "images/cableInstallKit-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "RJ11, RJ45 and Coax Crimpers",
+      "Cable Tester",
+      "Punchdown Tool",
+      "Cable Stripper",
+      "Coax Stipper",
+      "RJ45 Connectors"
+    ]
+  },
+
+  {
+    "id": "install-kit",
+    "name": "Installation Kit",
+    "price": 200,
+    "image": "images/installKit-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "RJ11, RJ45 and Coax Crimpers",
+      "Cable Tester",
+      "Cable Stripper",
+      "Coax Stipper"
+    ]
+  },
+
+  {
+    "id": "network-cable-tester",
+    "name": "Network Cable Tester",
+    "price": 80,
+    "image": "images/cableTester-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "RJ11 and RJ45",
+      "Quickly and Easily Check Network Cables",
+      "Checks Open and Short Terminals, Straight or Crossover Wiring Types"
+    ]
+  },
+
+  {
+    "id": "typec-to-rj45",
+    "name": "Type-C to RJ45 LAN Adapter",
+    "price": 150,
+    "image": "images/typeCtoRJ45-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Supports Up to 1000 Mbps",
+      "Type-C 3.1 Interface",
+      "Supports Full and Half Duplex",
+      "Plug and Play"
+    ]
+  },
+
+  {
+    "id": "induction-headlamp",
+    "name": "Induction Headlamp",
+    "price": 100,
+    "image": "images/inductionHeadlamp-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "350 Lumens",
+      "Up to 8 Hours",
+      "USB Rechargeable",
+      "Wave Induction"
+    ]
+  },
+  
+  {
+    "id": "usb-wireless-adapter",
+    "name": "USB Wireless Adapter",
+    "price": 99,
+    "image": "images/usbWirelessAdpater-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "USB 2.0",
+      "300Mbps",
+      "802.11b/g/n"
+    ]
+  },
+
+   {
+    "id": "typecToHub",
+    "name": "Type-C to Hub",
+    "price": 290,
+    "image": "images/typeCtoHub-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Supports 4K",
+      "PD",
+      "HDMI",
+      "VGA",
+      "USB"
+    ]
+  },
+
+ {
+    "id": "typeCHub",
+    "name": "Type-C Hub",
+    "price": 270,
+    "image": "images/typeCUsbHub-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB 3.1",
+      "With Power Delivery",
+      "USB-A Ports",
+      "Supports Up to 5Gbps Data Transfer"
+    ]
+  },
+
+    {
+    "id": "typecToHub",
+    "name": "Type-C to Hub",
+    "price": 290,
+    "image": "images/typeCtoHub-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Supports 4K",
+      "PD",
+      "HDMI",
+      "VGA",
+      "USB"
+    ]
+  },
+
+ {
+    "id": "typeCHub",
+    "name": "Type-C Hub",
+    "price": 270,
+    "image": "images/typeCUsbHub-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB 3.1",
+      "With Power Delivery",
+      "USB-A Ports",
+      "Supports Up to 5Gbps Data Transfer"
+    ]
+  },
+
+{
+    "id": "usbHub",
+    "name": "USB Hub",
+    "price": 85,
+    "image": "images/usbHub-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB 3.0",
+      "4 Ports",
+      "Up to 5GBps",
+      "With LED Indication"
+    ]
+  },
+
+{
+    "id": "coolingPad",
+    "name": "Notebook Cooling Pad",
+    "price": 100,
+    "image": "images/coolingPad-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "140mm Fan Blade",
+      "Up to 14 Inch Notebooks",
+      "21(dBA) Super Silent",
+      "Rapid Cooling"
+    ]
+  },
+
+{
+    "id": "miniBTKeyboard",
+    "name": "Mini Bluetooth Keyboard",
+    "price": 100,
+    "image": "images/miniBTKeyboard-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Bluetooth and 2.4G Wireless",
+      "Compatible with PC, Laptop, Playstation and Xbox"
+     
+    ]
+  },
+  
+{
+    "id": "tabletKeyboard",
+    "name": "Wireless Tablet Keyboard",
+    "price": 100,
+    "image": "images/tabletKeyboard-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Bluetooth Connectivity",
+      "USB Rechargeable",
+      "Up to 6 Hours Battery Life"
+    ]
+  },
+
+{
+    "id": "aoasGamingKeyboard",
+    "name": "AOAS Gaming Keyboard",
+    "price": 120,
+    "image": "images/aoasGamingKeyboard-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "RGB Lighting",
+      "1.5m USB Cable",
+      "Non-Slip Design",
+      "Support for Multiple Systems"
+    ]
+  },
+
+{
+    "id": "aoasKeyboardAndMouseSet",
+    "name": "AOAS Keyboard and Mouse Set",
+    "price": 150,
+    "image": "images/mouseKeyboardSet-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Durable and Non-Slip",
+      "Multilingual System Support",
+      "USB Plug and Play"
+    ]
+  },
+
+{
+    "id": "wirelessKeyboardMouseSet",
+    "name": "2.4Ghz Wireless Keyboard and Mouse Set",
+    "price": 250,
+    "image": "images/wirelessMouseandKeyboarf-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB Wireless 2.4Ghz",
+      "10m Distance",
+      "Non-Slip Design"
+    ]
+  },          
+ 
+{
+    "id": "twolfGamingComboSet",
+    "name": "T-Wolf Gaming Combo Set",
+    "price": 320,
+    "image": "images/twolfGamingCombo-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "4 in 1 Gaming Combo",
+      "Ergonomic Design",
+      "Keyboard and Mouse Backlighting",
+      "Includes: Keyboard, Mouse, Headset and a Mousepad"
+    ]
+  },
+
+{
+    "id": "k8GamingMousepad",
+    "name": "K8 Gaming Mouse Pad",
+    "price": 150,
+    "image": "images/k8mousepad-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "High Quality",
+      "Wear Resistant",
+      "Bottom Non-SLip Design",
+      "70cmx30cmx0.3cm"
+    ]
+  },
+
+{
+    "id": "harwaBluetoothSpeaker",
+    "name": "Harwa Bluetooth Speaker",
+    "price": 150,
+    "image": "images/harwaBTspeaker-removebg-preview.png",
+    "brand": "harwa",
+    "category": "accessories",
+    "specs": [
+      "Wireless",
+      "Up to 4 Hours Playtime",
+      "Play from USB Storage Devices",
+      "Splashproof"
+    ]
+  },
+
+{
+    "id": "eccoKaraokeSpeaker",
+    "name": "ECCO Karaoke Speaker",
+    "price": 100,
+    "image": "images/eccoBTSpeaker-removebg-preview.png",
+    "brand": "ecco",
+    "category": "accessories",
+    "specs": [
+      "USB",
+      "FM Radio",
+      "Rechargeable Li Battery",
+      "Output: 3W"
+    ]
+  },
+
+{
+    "id": "iStarPortableSpeaker",
+    "name": "iStar Portable Speaker",
+    "price": 250,
+    "image": "images/iStarBTSpeaker-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Bluetooth",
+      "USB/TF Card",
+      "Output: 30W",
+      "Rechargeable Battery"
+    ]
+  },
+
+{
+    "id": "aoasS4000GamingMousepad",
+    "name": "AOAS S4000 Gaming Mouse Pad",
+    "price": 200,
+    "image": "images/aoasRGBmousepad-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "RGB",
+      "Non-Slip",
+      "80cmx30cmx0.4cm"
+    ]
+  },
+
+{
+    "id": "p880Headset",
+    "name": "P880 RGB Bluetooth Headset",
+    "price": 250,
+    "image": "images/p880-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Best Pure Bass Sound",
+      "Hands-free Calls and Voice Control",
+      "Lightweight and Foldable Design"
+    ]
+  },
+
+{
+    "id": "p780Headset",
+    "name": "P780 RGB Bluetooth Headset",
+    "price": 250,
+    "image": "images/p780-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Best Pure Bass Sound",
+      "Hands-free Calls and Voice Control",
+      "Lightweight and Foldable Design"
+    ]
+  },
+
+{
+    "id": "p9Headset",
+    "name": "P9 Bluetooth Headset",
+    "price": 150,
+    "image": "images/p9-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Wireless Blueooth",
+      "40mm HiFi Dynamic Coil Speakers",
+      "Up to 5 Hours Playtime",
+      "Up to 10m Distance"
+    ]
+  },
+
+{
+    "id": "ultrapodsMax",
+    "name": "Ultrapods Max",
+    "price": 130,
+    "image": "images/ultraPods-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Noise Cancelling",
+      "Hi-Res",
+      "IPx4 Waterproof",
+      "LED Digital Display"
+    ]
+  },
+
+{
+    "id": "cj2.4WirelessMouse",
+    "name": "CJ 2.4Ghz Wireless Mouse",
+    "price": 80,
+    "image": "cjWireLess-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB Receiver",
+      "Optical",
+      "Low Power Indicator",
+      "10m Range"
+    ]
+  },
+
+{
+    "id": "weiboGlowingMouse",
+    "name": "Weibo Glowing Mouse",
+    "price": 60,
+    "image": "images/weiboGlowingmouse-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "RGB Lighting",
+      "Adjustable DPI",
+      "1600/2400/3200 DPI",
+      "Compatible with Windows, MAC and Linux"
+    ]
+  },     
+
+{
+    "id": "cj2.4WirelessMouse2",
+    "name": "CJ 2.4Ghz Wireless Mouse",
+    "price": 80,
+    "image": "images/wireLessCJ-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB Reciever",
+      "Optical",
+      "Low Power Indicator",
+      "3200 DPI"
+    ]
+  },
+
+{
+    "id": "weiboWiredMouse",
+    "name": "Weibo Wired Mouse",
+    "price": 50,
+    "image": "images/wiredMouse-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "New Gen Sensor Chip",
+      "1600 DPI",
+      "Support Windows, MAC and Linux"
+    ]
+  },
+
+{
+    "id": "oricoHddEnclosure",
+    "name": "Orico HDD Enclosure",
+    "price": 175,
+    "image": "images/oricoHddEnclose-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Supports Up to 2.5 Inch SATA HDD",
+      "Up to 5GBps",
+      "Backwards Compatible with USB 2.0",
+      "USB 3.0"
+    ]
+  },
+
+{
+    "id": "typeCtoRj45",
+    "name": "Type-C to RJ45-LAN",
+    "price": 150,
+    "image": "images/typeCtoRJ45-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Up to 1000Mbps",
+      "Backwards Compatible with USB 2.0",
+      "Supports Auto MDIX",
+      "Supports Full and Half Duplex"
+    ]
+  },
+
+{
+    "id": "usb2toRj45",
+    "name": "USB 2.0 to RJ45-LAN",
+    "price": 80,
+    "image": "images/usb2toRJ45-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Up to 100Mbps",
+      "Supports 10Mbps and 100Mbps N-way auto-negotiation"
+    ]
+  },
+
+{
+    "id": "applePowerAdapter",
+    "name": "Apple USB Power Adapter",
+    "price": 200,
+    "image": "images/appleCharger-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "12 Watt",
+      "Compatible with: Apple Watch, iPad, iPhone and iPod"
+    ]
+  },
+
+{
+    "id": "bodyGlovePopEarphones",
+    "name": "Body Glove Pop In-Ear Earphones",
+    "price": 100,
+    "image": "images/bodyGlovePop-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "10mm Driver Unit",
+      "Frequency Repsonse 20Hz - 20kHz",
+      "Impedance: 16 Ohm"
+    ]
+  },
+
+{
+    "id": "bodygloveLiteEarbuds",
+    "name": "Body Glove Lite Bluetooth Sport Earbuds",
+    "price": 250,
+    "image": "images/bodyGloveLite-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Up to 4 Hours Playtime",
+      "Standby Up to 100 Hours",
+      "10m Wireless Range"
+    ]
+  },
+
+{
+    "id": "edHardyEarphones",
+    "name": "Ed Hardy Earphones",
+    "price": 120,
+    "image": "images/EdHardy-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "8mm Driver Unit",
+      "Frequency Range: 20Hz - 18kHz",
+      "21(dBA) Super Silent",
+      "Impedance 32 Ohm"
+    ]
+  },
+
+{
+    "id": "bodyGloveChargeandSyncCable",
+    "name": "Body Glove Charge and Sync Cable",
+    "price": 50,
+    "image": "images/bodyChargeAndSync-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Micro-USB to Lightning Adapter",
+      "1 meter Cable Length"   
+    ]
+  },
+
+{
+    "id": "bodyGloveMiniDualUsbCarCharger",
+    "name": "Body Glove Mini Dual USB Car Charger",
+    "price": 50,
+    "image": "images/bodyMiniCarCharger-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Charge 2 Devices at the Same Time",
+      "Input Voltage: 12-24V DC",
+      "21(dBA) Super Silent",
+      "Output: 5V 2.1 AMPS"
+    ]
+  },
+
+{
+    "id": "bodyGloveUsbCharger",
+    "name": "Body Glove USB Charger",
+    "price": 50,
+    "image": "images/bodyDualCharger-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Charge 2 Devices at the Same Time",
+      "Input Voltage: 110-240V",
+      "Output: 5V 2.1 AMPS"
+    ]
+  },
+
+{
+    "id": "coolingPad",
+    "name": "Body Glove Dual USB Charger with Lightning Cable",
+    "price": 50,
+    "image": "images/bodyDualChargerwithLight-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Charge 2 Devices at the Same Time",
+      "Input Voltage: 110-240V",
+      "Output: 5V 2.1 AMPS"
+    ]
+  },
+
+{
+    "id": "snugCarChargerwithLightningCable",
+    "name": "Snug Car Charger with Lightning Cable",
+    "price": 50,
+    "image": "images/snugCarCharger-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Charge 2 Devices at the Same Time",
+      "Input Voltage: 12-24V DC",
+      "USB 1 Output: 5V/1A",
+      "USB 2 Output: 5V/2.4A"
+    ]
+  },
+
+{
+    "id": "coolingPad",
+    "name": "Snug Home Charger",
+    "price": 50,
+    "image": "images/snugHomeCharger-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Charge 2 Devices at the Same Time",
+      "Input Voltage: 110-240VAC",
+      "USB 1 Output: 5V/1A",
+      "USB 2 Output: 5V/2.4A"
+    ]
+  }
+     
+]
+
+
+
+
