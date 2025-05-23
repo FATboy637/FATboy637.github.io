@@ -366,8 +366,8 @@ a:hover {
 
 /* Compact WhatsApp Floating Chat Button */
 .whatsapp-chat {
-  width: 55px;
-  height: 55px;
+  width: 48px;
+  height: 48px;
   background-color: #25D366;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -379,8 +379,8 @@ a:hover {
 }
 
 .whatsapp-chat img {
-  width: 35px;
-  height: 35px;
+  width: 26px;
+  height: 26px;
 }
 
 .whatsapp-chat:hover {
