@@ -231,16 +231,27 @@ h4 {
   color: black;
 }
 
-.intro,
-.products {
+.intro {
   position: relative;
   padding: 40px 0;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
-  color: white;
+  /* color: white; */
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.products {
+  position: relative;
+  /* padding: 40px 0; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  /* color: white; */
+  text-align: center;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
