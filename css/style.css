@@ -40,13 +40,14 @@ html, body {
 
 body {
   background-size: cover;
-  background-image: url('../images/background.jpg');
+  background-color: #f1efe9;
+  /* background-image: url('../images/background.jpg'); */
   font-family: 'Trebuchet MS', sans-serif;
 }
 
 /* .header {
   background-size: cover;
-  background-color: #f1efe9;
+  
 } */
 
 .main-logo {
@@ -86,6 +87,10 @@ body {
 .nav-link:hover {
   color: rgb(160, 160, 160);
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar.fixed-top {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */
@@ -213,12 +218,17 @@ a:hover {
   margin-top: 10px;
 }
 
+h4 {
+  color: rgba(172, 198, 30);
+  /* text-decoration: underline;  */
+}
+
 .philoText,
 .collab-Text,
 .aboutUsText,
 .catText,
 .locationText {
-  color: white;
+  color: black;
 }
 
 .intro,
@@ -235,11 +245,12 @@ a:hover {
 }
 
 .intro {
-  background-image: url('../images/circuitBoard.jpg');
+  /* background-image: url('../images/circuitBoard.jpg'); */
 }
 
 .products {
-  background-image: url('../images/shopping3.jpg');
+  /* background-image: url('../images/shopping3.jpg'); */
+  color: rgba(172, 198, 30);
 }
 
 /* Forms */

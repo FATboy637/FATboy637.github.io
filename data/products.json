@@ -586,52 +586,6 @@
     ]
   },
 
-    {
-    "id": "typecToHub",
-    "name": "Type-C to Hub",
-    "price": 290,
-    "image": "images/typeCtoHub-removebg-preview.png",
-    "brand": "generic",
-    "category": "accessories",
-    "specs": [
-      "Supports 4K",
-      "PD",
-      "HDMI",
-      "VGA",
-      "USB"
-    ]
-  },
-
- {
-    "id": "typeCHub",
-    "name": "Type-C Hub",
-    "price": 270,
-    "image": "images/typeCUsbHub-removebg-preview.png",
-    "brand": "generic",
-    "category": "accessories",
-    "specs": [
-      "USB 3.1",
-      "With Power Delivery",
-      "USB-A Ports",
-      "Supports Up to 5Gbps Data Transfer"
-    ]
-  },
-
-{
-    "id": "usbHub",
-    "name": "USB Hub",
-    "price": 85,
-    "image": "images/usbHub-removebg-preview.png",
-    "brand": "generic",
-    "category": "accessories",
-    "specs": [
-      "USB 3.0",
-      "4 Ports",
-      "Up to 5GBps",
-      "With LED Indication"
-    ]
-  },
-
 {
     "id": "coolingPad",
     "name": "Notebook Cooling Pad",
@@ -869,7 +823,7 @@
     "id": "cj2.4WirelessMouse",
     "name": "CJ 2.4Ghz Wireless Mouse",
     "price": 80,
-    "image": "cjWireLess-removebg-preview.png",
+    "image": "images/cjWireLess-removebg-preview.png",
     "brand": "generic",
     "category": "accessories",
     "specs": [
