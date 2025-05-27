@@ -309,21 +309,6 @@
     ]
   },
 
-   {
-    "id": "tplink-t3u",
-    "name": "TP-Link Archer T3U Plus",
-    "price": 450,
-    "image": "images/tpLinkArcher-removebg-preview.png",
-    "brand": "TP-Link",
-    "category": "network-tools",
-    "specs": [
-      "High-Gain - Boost Wireless Range",
-      "867 Mbps on 5GHz / 400 Mbps on 2.4GHz",
-      "USB 3.0",
-      "MU-MIMO"
-    ]
-  },
-
   {
     "id": "tplink-archer-t3u",
     "name": "TP-Link Archer T3U Plus",
