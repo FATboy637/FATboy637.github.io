@@ -133,8 +133,48 @@
       "SO-DIMM"
     ]
   },
-  
 
+  {
+    "id": "13laptopSleeves",
+    "name": "Laptop Sleeves 13 Inch",
+    "price": 200,
+    "image": "images/13laptopSleeve-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Ultra-Slim Profile",
+      "Protective Padding",
+      "Zippered Closure"
+    ]
+  },
+  
+    {
+    "id": "14laptopSleeves",
+    "name": "Laptop Sleeves 14 Inch",
+    "price": 225,
+    "image": "images/14laptopSleeve-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Ultra-Slim Profile",
+      "Protective Padding",
+      "Zippered Closure"
+    ]
+  },
+
+  {
+    "id": "15laptopSleeves",
+    "name": "Laptop Sleeves 15.6 Inch",
+    "price": 250,
+    "image": "images/15laptopSleeve-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Ultra-Slim Profile",
+      "Protective Padding",
+      "Zippered Closure"
+    ]
+  },
 
   {
     "id": "combo-special",
@@ -433,6 +473,20 @@
     "specs": [
       "3 Meter",
       "UTP CAT 6"
+    ]
+  },
+
+  {
+    "id":"scFiberCable",
+    "name": "SC Fiber Optic Cable",
+    "price": 100,
+    "image": "images/SCFiberCable-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "SC to SC Connector",
+      "UPC",
+      "Low Insertion Loss"
     ]
   },
 
@@ -1045,6 +1099,34 @@
       "Input Voltage: 110-240VAC",
       "USB 1 Output: 5V/1A",
       "USB 2 Output: 5V/2.4A"
+    ]
+  },
+
+    {
+    "id": "2mTypeCcable",
+    "name": "Type C Data Cable",
+    "price": 100,
+    "image": "images/2mTypeCCable-removebg-preview.png",
+    "brand": "Generic",
+    "category": "accessories",
+    "specs": [
+      "Fast Data Transfer",
+      "Fast Charging",
+      "High Durability"
+    ]
+  },
+
+    {
+    "id": "hddEnclosure",
+    "name": "HDD Enclosure",
+    "price": 190,
+    "image": "images/hddEnclosure-removebg-preview.png",
+    "brand": "Generic",
+    "category": "accessories",
+    "specs": [
+      "Compatible with 2.5 Inch Drives",
+      "Support Up to 1TB Drives",
+      "Driverless"
     ]
   }
      
