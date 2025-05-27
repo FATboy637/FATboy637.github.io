@@ -15,11 +15,13 @@
       <div class="spinner"></div>
     </div>
     
-    <div class="header">
-        <div class="container text-center my-3">
-            <img class="logo" src="images/logo.jpg" alt="Computer Hub Logo">
+    <section id="target-top">
+        <div class="header">
+            <div class="container text-center my-3">
+                <img class="logo" src="images/logo.jpg" alt="Computer Hub Logo">
+            </div>
         </div>
-    </div>
+
         <nav class="navbar navbar-expand-lg sticky-top rounded mx-3">
             <div class="container-fluid justify-content">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +42,7 @@
                 </div>
             </div>
         </nav>
-    
+    </section>
     
 
     <div class="container intro fade-in">
@@ -67,44 +69,53 @@
         </div>
     </div>
 
-    <div class="container whatWeDo fade-in">
-        <div class="">
-            <h4>What We Do</h4>
+    <section id="target-whatWeDo">
+        <div class="container whatWeDo fade-in">
+            <div class="">
+                <h4>What We Do</h4>
+            </div>
         </div>
-    </div>
-   
-
+    </section>
+    
     <div class="container fade-in">
         <div class="row justify-content-center">
             <div class="col-md-3 col-sm-6">
                 <div class="card custom-card-1">
-                    <div class="card-body">
-                        <h4 class="card-title">Refurbished Computers</h4>
-                    </div>
+                    <a href="#target-laptops" class="text-decoration-none">
+                        <div class="card-body">
+                            <h4 class="card-title">Laptops</h4>
+                        </div>
+                    </a> 
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="card custom-card-2">
-                    <div class="card-body">
-                        <h4 class="card-title">Accessories</h4>
-                    </div>
+                    <a href="#target-computers" class="text-decoration-none">
+                        <div class="card-body">
+                            <h4 class="card-title">Computers</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="card custom-card-3">
-                    <div class="card-body">
-                        <h4 class="card-title">Refurbished Monitors</h4>
-                    </div>
+                    <a href="#target-network">
+                        <div class="card-body">
+                            <h4 class="card-title">Networks</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="card custom-card-4">
-                    <div class="card-body">
-                        <h4 class="card-title">Custom Gaming Computers</h4>
-                    </div>
+                    <a href="#target-accessories">
+                        <div class="card-body">
+                            <h4 class="card-title">Accessories</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -114,31 +125,44 @@
             <h4>Shop Our Products</h4>
     </div>
 
-    <section data-category="laptops">
+    <section id="target-laptops" data-category="laptops">
         <!-- Catalogue Header -->
         <div class="container catalogue">
-            <h4>Refurbished Laptops</h4>
+            <h4>Refurbished Laptops</h4>           
         </div>
     </section>
-
-    <section data-category="computers">
+    <div class="container catalogue">
+        <p><a href="#target-top">Back to Top</a> | <a href="#target-whatWeDo">What We Do</a></p>
+    </div>
+    
+    
+    <section id="target-computers" data-category="computers">
         <!-- Catalogue Header -->
         <div class="container catalogue">
             <h4>Desktops and Gaming Rigs</h4>
         </div>
     </section>
+    <div class="container catalogue">
+        <p><a href="#target-top">Back to Top</a> | <a href="#target-whatWeDo">What We Do</a></p>
+    </div>
 
-    <section data-category="network-tools">
+    <section id="target-network" data-category="network-tools">
         <div class="container catalogue">
             <h4>Networks and Tools</h4>
         </div>
     </section>
+    <div class="container catalogue">
+        <p><a href="#target-top">Back to Top</a> | <a href="#target-whatWeDo">What We Do</a></p>
+    </div>
 
-    <section data-category="accessories">
+    <section id="target-accessories" data-category="accessories">
         <div class="container catalogue">
             <h4>Accessories</h4>
         </div>
     </section>
+    <div class="container catalogue">
+        <p><a href="#target-top">Back to Top</a> | <a href="#target-whatWeDo">What We Do</a></p>
+    </div>
    
     <!-- <div class="container storeFront fade-in">
         <div class="row justify-content-center">
@@ -184,6 +208,30 @@
         </div>
     </div> -->
 
+     <section id="target-services">
+        <div class="container collab fade-in">
+            <div class="">
+                <h4>Our Services</h4>
+                <p class="collab-Text">
+                    At Computer Hub, we offer a wide range of professional IT services tailored for home users, small businesses, and gamers. Whether you need technical support, security solutions, or performance-driven machines, our team is ready to assist with fast, friendly, and affordable service.
+                </p>
+
+                <ul>
+                    <li><strong>IT Support:</strong> Reliable on-site or off-site support for software issues, hardware setup, system troubleshooting, and general maintenance.</li>
+                    <li><strong>Remote Support:</strong> Secure, fast remote assistance to resolve most issues without needing a visit. Ideal for quick fixes and emergency help.</li>
+                    <li><strong>CCTV Installation:</strong> Custom surveillance system installations for homes and businesses, including remote monitoring setup.</li>
+                    <li><strong>Laptop & Computer Repairs:</strong> Affordable repair services for all major brands—fixing power issues, cracked screens, upgrades, and more.</li>
+                    <li><strong>Custom Gaming PCs:</strong> Built-to-order performance PCs for gaming, streaming, or high-performance use—tailored to your needs and budget.</li>
+                </ul>
+                <p>
+                    Got a question or need help? We're here to assist! <strong>Send us a message on WhatsApp at <a href="https://wa.me/27847061007" target="_blank">084 706 1007</a></strong> or <strong>give us a call</strong> — whether it’s for a quick quote, tech support, or service booking, we’re ready to help.
+                </p>
+
+                <p><a href="#target-top">Back to Top</a> | <a href="#target-whatWeDo">What We Do</a></p>
+            </div>
+        </div>
+    </section>
+
      <div class="container collab fade-in">
         <div class="">
             <h4>Let's Collaborate!</h4>
@@ -191,8 +239,13 @@
                 At Computer Hub, we provide high-quality refurbished laptops, gaming PCs, and accessories at unbeatable prices. Partner with us for reliable tech solutions that fit your needs and budget.
             </p>
         </div>
+        <p>
+            <a href="#target-top">
+                Back to Top
+            </a>
+        </p>
     </div>
-   
+     
     <div class="container footer fade-in">
       
         <div class="row">

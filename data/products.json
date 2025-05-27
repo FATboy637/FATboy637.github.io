@@ -62,7 +62,7 @@
   {
     "id": "dell-e5570",
     "name": "Dell Latitude E5570",
-    "price": 0,
+    "price": " Request",
     "image": "images/dellLatitudeE5570-removebg-preview.png",
     "brand": "Dell",
     "category": "laptops",
@@ -92,7 +92,7 @@
   {
     "id": "dell-XPS9575",
     "name": "Dell XPS 15 9575",
-    "price": 0,
+    "price": " Request",
     "image": "images/dellXPS-removebg-preview.png",
     "brand": "Dell",
     "category": "laptops",
@@ -108,7 +108,7 @@
   {
     "id": "dell-5430",
     "name": "Dell Latitude 5430",
-    "price": 0,
+    "price": " Request",
     "image": "images/delllatitude-removebg-preview.png",
     "brand": "Dell",
     "category": "laptops",

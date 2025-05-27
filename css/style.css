@@ -36,6 +36,7 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -144,19 +145,15 @@ a:hover {
 }
 
 .custom-card-2 {
-  background-image: url('../images/keyboard.jpg');
-}
-
-.custom-card-3 {
-  background-image: url('../images/monitor.jpg');
-}
-
-.custom-card-4 {
   background-image: url('../images/gamingSetup2.jpg');
 }
 
-.custom-card-5 {
-  background-image: url('../images/brokenMonitor.jpg');
+.custom-card-3 {
+  background-image: url('../images/networking.jpg');
+}
+
+.custom-card-4 {
+  background-image: url('../images/keyboard.jpg');
 }
 
 .custom-card-1,
@@ -255,9 +252,9 @@ h4 {
   /* margin-bottom: 20px; */
 }
 
-.intro {
-  /* background-image: url('../images/circuitBoard.jpg'); */
-}
+/* .intro {
+  /* background-image: url('../images/circuitBoard.jpg'); 
+} */
 
 .products {
   /* background-image: url('../images/shopping3.jpg'); */
@@ -407,6 +404,11 @@ h4 {
 
 .whatsapp-chat:hover {
   transform: scale(1.05);
+}
+
+ul, 
+p {
+  color: black;
 }
 
 
