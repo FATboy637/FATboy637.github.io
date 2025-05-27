@@ -94,7 +94,7 @@ function renderCart() {
     `;
   }).join("");
 
-  totalContainer.innerHTML = `<h4>Total: R${total.toFixed(2)}</h4>`;
+  totalContainer.innerHTML = `<h4 style="color:black;">Total: R${total.toFixed(2)}</h4>`;
 
   // Event listeners
   document.querySelectorAll(".remove-btn").forEach(btn =>
