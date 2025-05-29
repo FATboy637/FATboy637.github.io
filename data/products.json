@@ -283,7 +283,7 @@
     "id": "apacer-ssd-128",
     "name": "Apacer SSD",
     "price": 270,
-    "image": "images/networking.jpg",
+    "image": "images/128gbSSD-removebg-preview.png",
     "brand": "Apacer",
     "category": "computers",
     "specs": [
@@ -297,7 +297,7 @@
     "id": "apacer-ssd-256",
     "name": "Apacer SSD",
     "price": 445,
-    "image": "images/peripherals.jpg",
+    "image": "images/apacerSSD-removebg-preview.png",
     "brand": "Apacer",
     "category": "computers",
     "specs": [

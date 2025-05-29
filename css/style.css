@@ -37,6 +37,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  padding-top: 30px;
 }
 
 body {
@@ -45,22 +46,57 @@ body {
   /* background-image: url('../images/background.jpg'); */
   font-family: 'Trebuchet MS', sans-serif;
 }
+/* Limit mobile card height */
+@media (max-width: 767.98px) {
+  #multiCardCarousel .card {
+    height: auto !important;
+  }
 
-/* .header {
-  background-size: cover;
-  
-} */
+  #multiCardCarousel .card-img-top {
+    height: 100px;
+    object-fit: cover;
+  }
+}
 
-.main-logo {
+/* Desktop height constraint */
+@media (min-width: 768px) {
+  #multiCardCarousel.carousel-desktop-height {
+    height: 400px;
+  }
+}
+
+#multiCardCarousel .card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 767.98px) {
+  #multiCardCarousel .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+/* 
+.header {
+  margin-top: 80px;
+}  */
+
+/* .main-logo {
   text-align: center;
   border-radius: 10px;
   background-image: url('../images/bodyBG.jpg');
-}
+} */
 
-.logo {
+/* .logo {
   height: 150px;
   border-radius: 20px;
   padding: 10px;
+} */
+
+.logo {
+  height: 70px;
+  border-radius: 10px;
 }
 
 /* Navbar */
@@ -91,9 +127,45 @@ body {
 }
 
 .navbar.fixed-top {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1030;
 }
 
+.card {
+  height: 100%;
+}
+.carousel .card {
+  margin: 10px;
+}
+
+#multiCardCarousel {
+  margin-top: 100px;
+}
+
+/* Shrink card height and text for mobile */
+@media (max-width: 767.98px) {
+  .carousel .card {
+    font-size: 0.9rem;
+  }
+
+  .carousel .card-img-top {
+    height: 120px;
+    object-fit: cover;
+  }
+
+  .carousel .card-body {
+    padding: 0.5rem;
+  }
+
+  .carousel .card-title {
+    font-size: 1rem;
+  }
+}
+.carousel-control-prev {
+  color: black;
+}
 /* Footer */
 .footer {
   background-color: black;
@@ -230,7 +302,6 @@ h4 {
 
 .intro {
   position: relative;
-  padding: 40px 0;
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -271,6 +342,7 @@ h4 {
 
 .contactInfo {
   color: rgba(172, 198, 30);
+  font-size: 14px;
 }
 
 .footer-Headings {
@@ -421,6 +493,23 @@ ul {
 .cart-Total {
   color: black;
 }
+
+.footer .row > div {
+  text-align: center;
+}
+
+.footer-Headings {
+  margin-bottom: 15px;
+}
+
+.footer .contactInfo p {
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
 
 
 
