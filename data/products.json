@@ -59,6 +59,67 @@
     ]
   },
 
+   {
+    "id": "dellLatitude5280",
+    "name": "Dell Latitude 5280",
+    "price": 4700,
+    "image": "images/dellLatitude5280-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel i5-7200u @ 2.7GHz",
+      "16GB RAM",
+      "256GB SSD",
+      "Windows 11 Pro"
+    ]
+  },
+
+   {
+    "id": "dellPrecision5400",
+    "name": "Dell Precision 5400",
+    "price": 6800,
+    "image": "images/dellPrecision5400-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel i7-8665u @ 1.9GHz",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 10"
+    ]
+  },
+
+   {
+    "id": "dellLatitude5410",
+    "name": "Dell Latitude 5410",
+    "price": 9000,
+    "image": "images/dellLatitude5410-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel i5-10310u @ 1.7GHz",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 11 Pro"
+    ]
+  },
+
+   {
+    "id": "acerAspire3",
+    "name": "Acer Aspire 3",
+    "price": 1500,
+    "image": "images/acerAspire3-removebg-preview.png",
+    "brand": "Acer",
+    "category": "laptops",
+    "specs": [
+      "Intel Celeron @ 1.1GHz",
+      "4GB RAM",
+      "128GB SSD",
+      "Windows 10"
+    ]
+  },
+
+
   {
     "id": "dell-e5570",
     "name": "Dell Latitude E5570",
@@ -709,7 +770,36 @@
       "10m Distance",
       "Non-Slip Design"
     ]
-  },          
+  },   
+  
+  {
+    "id": "aoasA1013",
+    "name": "AOAS A1013 Keyboard",
+    "price": 100,
+    "image": "images/aoasA1013-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Standard Size",
+      "Wired USB",
+      "Durable"
+    ]
+  },
+
+  {
+    "id": "aoasA1016",
+    "name": "AOAS A1016 Keyboard and Mouse Set",
+    "price": 150,
+    "image": "images/aoasA1016-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Standard Size",
+      "Wired USB",
+      "Durable",
+      "Inludes Wired Mouse"
+    ]
+  },
  
 {
     "id": "twolfGamingComboSet",
