@@ -133,6 +133,20 @@ body {
   z-index: 1030;
 }
 
+@media (max-width: 767.98px) {
+  .navbar .search-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar .search-bar input {
+    width: 75%;
+  }
+}
+
+
 .card {
   height: 100%;
 }
