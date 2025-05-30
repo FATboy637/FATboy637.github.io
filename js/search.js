@@ -5,53 +5,49 @@ window.addEventListener("DOMContentLoaded", () => {
     .then((res) => res.json())
     .then((products) => {
       allProducts = products;
-
-      // Now that products are loaded, set up event listeners
-
-      const searchInputs = document.querySelectorAll('input[type="search"]');
-      searchInputs.forEach((input) => {
-        input.addEventListener("keypress", (e) => {
-          if (e.key === "Enter") {
-            e.preventDefault();
-            const query = input.value.trim().toLowerCase();
-
-            if (!query) return;
-
-            // Show modal and populate it
-            const modalEl = document.getElementById("searchModal");
-            const resultsContainer = document.getElementById("searchResultsContainer");
-            resultsContainer.innerHTML = "";
-            const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
-            modal.show();
-
-            // Slight delay to ensure modal content is visible before injecting results
-            setTimeout(() => {
-              performSearch(query, resultsContainer);
-            }, 200);
-          }
-        });
-      });
-
-      // If modal opened with data-bs-toggle (mobile), trigger search logic
-      const modalEl = document.getElementById("searchModal");
-      modalEl.addEventListener("show.bs.modal", () => {
-        const input = document.querySelector('input[type="search"]');
-        const query = input.value.trim().toLowerCase();
-        const resultsContainer = document.getElementById("searchResultsContainer");
-        resultsContainer.innerHTML = "";
-
-        if (query) {
-          performSearch(query, resultsContainer);
-        } else {
-          resultsContainer.innerHTML = "<p>Please enter a search term.</p>";
-        }
-      });
     });
 
-  updateCartBadge();
+  // Handle Enter key on any search input
+  const searchInputs = document.querySelectorAll('input[type="search"]');
+  searchInputs.forEach((input) => {
+    input.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const modal = bootstrap.Modal.getOrCreateInstance(document.getElementById("searchModal"));
+        // Set the current input for searching
+        performSearch(input);
+        modal.show();
+      }
+    });
+  });
+
+  // Handle click on any search button
+  const searchButtons = document.querySelectorAll(".search-button");
+  searchButtons.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      // Find the search input inside the same form as clicked button
+      const form = btn.closest("form");
+      if (!form) return;
+      const input = form.querySelector('input[type="search"]');
+      if (!input) return;
+      performSearch(input);
+      const modal = bootstrap.Modal.getOrCreateInstance(document.getElementById("searchModal"));
+      modal.show();
+    });
+  });
 });
 
-function performSearch(query, resultsContainer) {
+function performSearch(searchInput) {
+  const query = searchInput.value.toLowerCase().trim();
+  const resultsContainer = document.getElementById("searchResultsContainer");
+  resultsContainer.innerHTML = "";
+
+  if (!query) {
+    resultsContainer.innerHTML = "<p>Please enter a search term.</p>";
+    return;
+  }
+
   const filtered = allProducts.filter((product) => {
     const hasName = typeof product.name === "string";
     const hasSpecs = Array.isArray(product.specs);
@@ -72,6 +68,8 @@ function performSearch(query, resultsContainer) {
 }
 
 function renderSearchResults(container, products) {
+  container.innerHTML = ""; // Clear before rendering
+
   products.forEach((product) => {
     const col = document.createElement("div");
     col.className = "col-12 col-sm-6 col-md-3 mb-4";
@@ -140,3 +138,5 @@ function updateCartBadge() {
     badge.style.display = count > 0 ? "inline-block" : "none";
   }
 }
+
+updateCartBadge();

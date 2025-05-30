@@ -35,9 +35,9 @@
 /* General Layout */
 html, body {
   max-width: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   scroll-behavior: smooth;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 body {
@@ -155,7 +155,7 @@ body {
 }
 
 #multiCardCarousel {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 /* Shrink card height and text for mobile */
@@ -553,6 +553,8 @@ h5 {
     overflow-y: auto;
   }
 }
+
+
 
 
 
