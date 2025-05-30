@@ -17,23 +17,17 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  input.addEventListener("search", (e) => {
+  const searchButtons = document.querySelectorAll("#search-button");
+  searchButtons.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault(); // Prevent form or page refresh
       handleModalSearch(e);
     });
   });
-
-  const searchButtons = document.querySelectorAll("#search-button");
-  searchButtons.forEach((btn) => {
-    btn.addEventListener("click", handleModalSearch);
-    btn.addEventListener("touchstart", handleModalSearch);
-  });
-
+});
 
 function handleModalSearch(event) {
-  let searchInput = event.target.closest('.modal')?.querySelector('input[type="search"]');
-  if (!searchInput) {
-    searchInput = document.querySelector('input[type="search"]');
-  }
+  const searchInput = document.querySelector('input[type="search"]');
   const query = searchInput.value.toLowerCase().trim();
   const resultsContainer = document.getElementById("searchResultsContainer");
   resultsContainer.innerHTML = "";
@@ -45,12 +39,11 @@ function handleModalSearch(event) {
     const hasSpecs = Array.isArray(product.specs);
     const hasCategory = typeof product.category === "string";
 
-    const matchesText =
+    return (
       (hasName && product.name.toLowerCase().includes(query)) ||
       (hasSpecs && product.specs.some((spec) => spec.toLowerCase().includes(query))) ||
-      (hasCategory && product.category.toLowerCase().includes(query));
-
-    return matchesText;
+      (hasCategory && product.category.toLowerCase().includes(query))
+    );
   });
 
   if (filtered.length === 0) {
@@ -59,8 +52,12 @@ function handleModalSearch(event) {
     renderSearchResults(resultsContainer, filtered);
   }
 
-  const modal = new bootstrap.Modal(document.getElementById("searchModal"));
-  modal.show();
+  // Show modal after DOM update is ready
+  requestAnimationFrame(() => {
+    const modalEl = document.getElementById("searchModal");
+    const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+    modal.show();
+  });
 }
 
 function renderSearchResults(container, products) {
