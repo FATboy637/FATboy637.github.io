@@ -17,11 +17,17 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  input.addEventListener("search", (e) => {
+      handleModalSearch(e);
+    });
+  });
+
   const searchButtons = document.querySelectorAll("#search-button");
   searchButtons.forEach((btn) => {
     btn.addEventListener("click", handleModalSearch);
+    btn.addEventListener("touchstart", handleModalSearch);
   });
-});
+
 
 function handleModalSearch(event) {
   let searchInput = event.target.closest('.modal')?.querySelector('input[type="search"]');
