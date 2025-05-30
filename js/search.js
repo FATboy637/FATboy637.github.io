@@ -17,15 +17,17 @@ window.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const searchButtons = document.querySelectorAll(".search-button");
+  const searchButtons = document.querySelectorAll("#search-button");
   searchButtons.forEach((btn) => {
     btn.addEventListener("click", handleModalSearch);
   });
 });
 
 function handleModalSearch(event) {
-  const searchInput =
-    document.querySelector('input[type="search"]') || event.target;
+  let searchInput = event.target.closest('.modal')?.querySelector('input[type="search"]');
+  if (!searchInput) {
+    searchInput = document.querySelector('input[type="search"]');
+  }
   const query = searchInput.value.toLowerCase().trim();
   const resultsContainer = document.getElementById("searchResultsContainer");
   resultsContainer.innerHTML = "";

@@ -45,7 +45,7 @@
       
                     <form class="d-none d-lg-flex" role="search">
                         <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light btn-sm" type="submit">Search</button>
+                        <button id="search-button" class="btn btn-outline-light btn-sm" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -54,7 +54,7 @@
             <div class="container-fluid d-lg-none mt-2 px-3">
                 <form role="search">
                     <input class="form-control form-control-sm mb-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light btn-sm w-100" type="submit">Search</button>
+                    <button id="search-button" class="btn btn-outline-light btn-sm w-100" type="submit">Search</button>
                 </form>
             </div>
         </nav>
@@ -239,6 +239,7 @@
                 <p class="collab-Text">
                     Got a question or need help? We're here to assist! <strong>Send us a message on WhatsApp at <a href="https://wa.me/27847061007" target="_blank">084 706 1007</a></strong> or <strong>give us a call</strong> — whether it’s for a quick quote, tech support, or service booking, we’re ready to help.
                 </p>
+                <p class="collab-text">For more information <a href="https://cableadvantage.co.za/" target="_blank">Click Here...</a></p>
             </div>
         </div>
     </section>
@@ -318,6 +319,11 @@
         <span class="whatsapp-tooltip">Chat with us</span>
     </a>
     </div>
+
+    <form id="mainSearchForm" class="d-flex">
+        <input id="mainSearchInput" class="form-control me-2" type="search" placeholder="Search...">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
 
     <!-- Search Results Modal -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
