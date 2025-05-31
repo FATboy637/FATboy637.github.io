@@ -299,22 +299,6 @@
   },
 
   {
-    "id": "dell-vostro",
-    "name": "Dell Vostro",
-    "price": 3900,
-    "image": "images/dellVostro-removebg-preview.png",
-    "brand": "Dell",
-    "category": "computers",
-    "specs": [
-      "Intel i5-9500 @ 3.00GHz",
-      "16GB RAM",
-      "500GB NVMe SSD",
-      "1TB HDD",
-      "Windows 11 Pro"
-    ]
-  },
-
-  {
     "id": "corsair-cx650",
     "name": "Corsair CX650 Powersupply",
     "price": 1400,
@@ -329,10 +313,10 @@
   },
 
   {
-    "id": "cooler-master-paste",
-    "name": "Cooler Master Thermal Paste",
-    "price": 160,
-    "image": "images/computer.jpg",
+    "id": "corsairXTMThermalPaste",
+    "name": "Corsair XTM50 Thermal Paste",
+    "price": 220,
+    "image": "images/corsairXTM50ThermalPaste-removebg-preview.png",
     "brand": "Cooler Master",
     "category": "computers",
     "specs": [

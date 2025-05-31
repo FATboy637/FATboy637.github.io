@@ -1,0 +1,17 @@
+[
+      {
+    "id": "dell-vostro",
+    "name": "Dell Vostro",
+    "price": 3900,
+    "image": "images/dellVostro-removebg-preview.png",
+    "brand": "Dell",
+    "category": "computers",
+    "specs": [
+      "Intel i5-9500 @ 3.00GHz",
+      "16GB RAM",
+      "500GB NVMe SSD",
+      "1TB HDD",
+      "Windows 11 Pro"
+    ]
+  }
+]
