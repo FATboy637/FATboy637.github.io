@@ -197,7 +197,7 @@
 
   {
     "id": "13laptopSleeves",
-    "name": "Laptop Sleeves 13 Inch",
+    "name": "Laptop Sleeves 13\" ",
     "price": 200,
     "image": "images/13laptopSleeve-removebg-preview.png",
     "brand": "Generic",
@@ -211,7 +211,7 @@
   
     {
     "id": "14laptopSleeves",
-    "name": "Laptop Sleeves 14 Inch",
+    "name": "Laptop Sleeves 14\" ",
     "price": 225,
     "image": "images/14laptopSleeve-removebg-preview.png",
     "brand": "Generic",
@@ -225,7 +225,7 @@
 
   {
     "id": "15laptopSleeves",
-    "name": "Laptop Sleeves 15.6 Inch",
+    "name": "Laptop Sleeves 15.6\" ",
     "price": 250,
     "image": "images/15laptopSleeve-removebg-preview.png",
     "brand": "Generic",
@@ -1202,7 +1202,112 @@
       "Support Up to 1TB Drives",
       "Driverless"
     ]
+  },
+
+  {
+    "id": "1060Combo",
+    "name": "Winterfreeze Gaming Combo",
+    "price": 13000,
+    "image": "winterFreeze/1060Combo-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "Comes with Gigabyte Gaming PC",
+      "T-Wolf 4 in 1 Gaming Combo",
+      "AOC 24\" Monitor",
+      "K8 Gaming Mouse pad"
+    ]
+  },
+
+  {
+    "id": "evetechCombo",
+    "name": "Desktop Combo",
+    "price": 4900,
+    "image": "winterFreeze/evetechCombo-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "Comes with a Desktop PC",
+      "22\" Dell Monitor",
+      "Wired Keyboard and Mouse Set"
+    ]
+  },
+
+  {
+    "id": "mecerComboWinter",
+    "name": "Mecer Desktop Combo",
+    "price": 2000,
+    "image": "winterFreeze/mecerCombo-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "Mecer Desktop Combo @ Discounted Price",
+      "Intel i3-3220 @ 3.0GHz",
+      "4GB RAM",
+      "256GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "redDesktopCombo",
+    "name": "Low End Desktop Combo",
+    "price": 2000,
+    "image": "winterFreeze/cncCombo-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "Low End Desktop",
+      "19\" LG Screen",
+      "Wired Keyboard and Mouse Set"
+    ]
+  },
+
+  {
+    "id": "hpWinterFreeze",
+    "name": "Winterfreeze HP ProBook 4530s",
+    "price": 1600,
+    "image": "winterFreeze/HPProbook-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "Intel i3-2350M @ 2.3GHz",
+      "4GB RAM",
+      "256GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+  {
+    "id": "k8Winterfreeze",
+    "name": "K8 Gaming Mouse Pad",
+    "price": 100,
+    "image": "winterFreeze/1060Combo-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "High Quality",
+      "Wear Resistant",
+      "Bottom Non-SLip Design",
+      "70cmx30cmx0.3cm"
+    ]
+  },
+
+  {
+    "id": "harwaWinterfreeze",
+    "name": "Harwa Bluetooth Speaker",
+    "price": 110,
+    "image": "winterFreeze/harwaBTspeaker-removebg-preview.png",
+    "brand": "Generic",
+    "category": "winterFreeze",
+    "specs": [
+      "Wireless",
+      "Up to 4 Hours Playtime",
+      "Play from USB Storage Devices",
+      "Splashproof"
+    ]
   }
+
      
 ]
 
