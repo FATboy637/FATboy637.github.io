@@ -1,66 +1,62 @@
-  document.addEventListener("DOMContentLoaded", () => {
-    const form = document.getElementById("orderForm");
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("orderForm");
+  if (!form) return;
 
-    if (form) {
-      form.addEventListener("submit", async (e) => {
-        const cart = JSON.parse(localStorage.getItem("computerhub_cart") || "[]");
+  form.addEventListener("submit", function (e) {
+    const name = document.getElementById("customerName")?.value || "N/A";
+    const surname = document.getElementById("customerSurname")?.value || "N/A";
+    const cart = JSON.parse(localStorage.getItem("computerhub_cart")) || [];
 
-        if (cart.length === 0) {
-          e.preventDefault();
-          alert("Your cart is empty. Please add items before submitting.");
-          return;
-        }
+    if (cart.length === 0) return;
 
-        const orderDetailsInput = document.getElementById("orderDetails");
-        const userEmail = document.getElementById("user_email").value.trim();
-        const date = new Date().toLocaleDateString();
+    const doc = new jspdf.jsPDF();
+    const logo = new Image();
+    logo.src = "images/logo.jpg"; // Update path if needed
 
-        let message = cart.map(item =>
-          `${item.name} (x${item.qty}) - R${(item.price * item.qty).toFixed(2)}`
-        ).join("\n");
+    logo.onload = () => {
+      // Heading
+      doc.setFontSize(18);
+      doc.text("INVOICE", 10, 20);
 
-        const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
-        message += `\n\nTotal: R${total.toFixed(2)}`;
-        orderDetailsInput.value = message;
+      // Customer and date info
+      doc.setFontSize(12);
+      const today = new Date().toLocaleDateString();
+      doc.text(`Date: ${today}`, 10, 30);
+      doc.text(`Customer: ${name} ${surname}`, 10, 37);
 
-        //Generate PDF
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
+      // Addresses
+      doc.text("Unit C12, 11 Havelock Rd,", 10, 47);
+      doc.text("Willow Park Manor, Pretoria, 0184", 10, 52);
+      doc.text("599 Smook Ave, Roseville,", 10, 62);
+      doc.text("Pretoria, 0084", 10, 67);
 
-        let y = 10;
-        doc.setFontSize(16);
-        doc.text("ComputerHub Order Slip", 10, y);
-        y += 10;
+      // Logo or Company name
+      doc.addImage(logo, "JPEG", 150, 10, 40, 30);
 
-        doc.setFontSize(12);
-        if (userEmail) {
-          doc.text(`Customer Email: ${userEmail}`, 10, y);
-          y += 10;
-        }
+      // Table data
+      const rows = cart.map(item => [
+        item.name,
+        item.qty.toString(),
+        "R" + (item.price * item.qty).toFixed(2)
+      ]);
 
-        doc.text(`Date: ${date}`, 10, y);
-        y += 10;
+      const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 
-        doc.text("Items:", 10, y);
-        y += 10;
-
-        cart.forEach(item => {
-          doc.text(`• ${item.name} (x${item.qty}) - R${(item.price * item.qty).toFixed(2)}`, 12, y);
-          y += 8;
-        });
-
-        y += 5;
-        doc.setFontSize(14);
-        doc.text(`Total: R${total.toFixed(2)}`, 10, y);
-
-        //Save the PDF
-        doc.save("ComputerHub_Order.pdf");
-
-        // Optional: Clear cart after short delay
-        setTimeout(() => {
-          localStorage.removeItem("computerhub_cart");
-        }, 2000);
+      doc.autoTable({
+        startY: 80,
+        head: [["Description", "Quantity", "Price"]],
+        body: rows,
+        theme: "grid",
+        headStyles: { fillColor: [0, 0, 0], textColor: 255 },
+        foot: [["", "Total", "R" + total.toFixed(2)]],
+        footStyles: { fillColor: [230, 230, 230], textColor: 20, fontStyle: 'bold' }
       });
-    }
-  });
 
+      // Thank you
+      doc.setFontSize(12);
+      doc.text("Thank you for your order!", 10, doc.lastAutoTable.finalY + 20);
+
+      doc.save("ComputerHub_Invoice.pdf");
+    };
+  });
+});
