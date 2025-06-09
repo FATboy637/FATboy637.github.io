@@ -299,6 +299,48 @@
   },
 
   {
+    "id": "aocMonitor",
+    "name": "AOC Monitor",
+    "price": 1400,
+    "image": "images/aocMonitor-removebg-preview (1).png",
+    "brand": "aoc",
+    "category": "computers",
+    "specs": [
+      "24\" Screen",
+      "Bezelless Design",
+      "1920x1080"
+    ]
+  },
+
+  {
+    "id": "lgMonitor",
+    "name": "LG Monitor",
+    "price": 1200,
+    "image": "images/lgMonitor-removebg-preview.png",
+    "brand": "lg",
+    "category": "computers",
+    "specs": [
+      "Full HD Display",
+      "Radeon FreeSync",
+      "OnScreen Control"
+    ]
+  },
+
+  {
+    "id": "dellMonitor",
+    "name": "Dell Monitor",
+    "price": 1200,
+    "image": "images/dellMonitor-removebg-preview.png",
+    "brand": "Dell",
+    "category": "computers",
+    "specs": [
+      "22\" Display",
+      "Full HD",
+      "VA Panel"
+    ]
+  },
+
+  {
     "id": "corsair-cx650",
     "name": "Corsair CX650 Powersupply",
     "price": 1400,
