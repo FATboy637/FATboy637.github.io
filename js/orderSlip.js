@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", function (e) {
     const name = document.getElementById("customerName")?.value || "N/A";
-    const surname = document.getElementById("customerSurname")?.value || "N/A";
     const cart = JSON.parse(localStorage.getItem("computerhub_cart")) || [];
 
     if (cart.length === 0) return;
@@ -22,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
       doc.setFontSize(12);
       const today = new Date().toLocaleDateString();
       doc.text(`Date: ${today}`, 10, 30);
-      doc.text(`Customer: ${name} ${surname}`, 10, 37);
+      doc.text(`Customer: ${name} `, 10, 37);
 
       // Addresses
       doc.text("Unit C12, 11 Havelock Rd,", 10, 47);
