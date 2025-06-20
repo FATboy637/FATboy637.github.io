@@ -65,6 +65,13 @@ body {
   }
 }
 
+@media (min-width: 1600px) {
+    #multiCardCarousel {
+        margin-bottom: 4rem; /* More space on ultra-wide screens */
+    }
+}
+
+
 #multiCardCarousel .card {
   border: none;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
