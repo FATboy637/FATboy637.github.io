@@ -74,37 +74,6 @@
     ]
   },
 
-   {
-    "id": "dellPrecision5400",
-    "name": "Dell Precision 5400",
-    "price": 6800,
-    "image": "images/dellPrecision5400-removebg-preview.png",
-    "brand": "Dell",
-    "category": "laptops",
-    "specs": [
-      "Intel i7-8665u @ 1.9GHz",
-      "8GB RAM",
-      "256GB SSD",
-      "Windows 10"
-    ]
-  },
-
-   {
-    "id": "acerAspire3",
-    "name": "Acer Aspire 3",
-    "price": 1500,
-    "image": "images/acerAspire3-removebg-preview.png",
-    "brand": "Acer",
-    "category": "laptops",
-    "specs": [
-      "Intel Celeron @ 1.1GHz",
-      "4GB RAM",
-      "128GB SSD",
-      "Windows 10"
-    ]
-  },
-
-
   {
     "id": "dell-e5570",
     "name": "Dell Latitude E5570",
@@ -120,20 +89,6 @@
     ]
   },
 
-  {
-    "id": "dell-7210",
-    "name": "Dell Latitude 7210 2 in 1",
-    "price": 10000,
-    "image": "images/Dell2in1-removebg-preview.png",
-    "brand": "Dell",
-    "category": "laptops",
-    "specs": [
-      "Intel Core i5-10310U @ 1.70GHz",
-      "16GB RAM",
-      "256GB NVMe SSD",
-      "Windows 11 Pro"
-    ]
-  },
 
   {
     "id": "dato-ddr4",
@@ -145,7 +100,8 @@
     "specs": [
       "8GB",
       "3200 MT/s",
-      "SO-DIMM"
+      "SO-DIMM",
+      "Out of Stock"
     ]
   },
 
@@ -276,7 +232,8 @@
     "specs": [
       "24\" Screen",
       "Bezelless Design",
-      "1920x1080"
+      "1920x1080",
+      "Out of Stock"
     ]
   },
 
@@ -344,7 +301,8 @@
     "specs": [
       "2.5\" SATA",
       "6GB/s Data Transfer",
-      "128GB"
+      "128GB",
+      "Out of Stock"
     ]
   },
 
@@ -928,21 +886,6 @@
   },
 
 {
-    "id": "ultrapodsMax",
-    "name": "Ultrapods Max",
-    "price": 130,
-    "image": "images/ultraPods-removebg-preview.png",
-    "brand": "generic",
-    "category": "accessories",
-    "specs": [
-      "Noise Cancelling",
-      "Hi-Res",
-      "IPx4 Waterproof",
-      "LED Digital Display"
-    ]
-  },
-
-{
     "id": "cj2.4WirelessMouse",
     "name": "CJ 2.4Ghz Wireless Mouse",
     "price": 80,
@@ -953,7 +896,8 @@
       "USB Receiver",
       "Optical",
       "Low Power Indicator",
-      "10m Range"
+      "10m Range",
+      "Out of Stock"
     ]
   },
 
@@ -983,7 +927,8 @@
       "USB Reciever",
       "Optical",
       "Low Power Indicator",
-      "3200 DPI"
+      "3200 DPI",
+      "Out of Stock"
     ]
   },
 
@@ -1143,7 +1088,7 @@
   },
 
 {
-    "id": "coolingPad",
+    "id": "bodyGloveDualUsbChargeLightning",
     "name": "Body Glove Dual USB Charger with Lightning Cable",
     "price": 50,
     "image": "images/bodyDualChargerwithLight-removebg-preview.png",
@@ -1172,7 +1117,7 @@
   },
 
 {
-    "id": "coolingPad",
+    "id": "snugHomeCharger",
     "name": "Snug Home Charger",
     "price": 50,
     "image": "images/snugHomeCharger-removebg-preview.png",
