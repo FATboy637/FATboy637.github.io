@@ -30,7 +30,7 @@ function renderProducts(container, products) {
   let visibleCount = 0;
   const perPage = 4;
 
-  // ✅ Load More button
+  // Load More button
   const loadMoreBtn = document.createElement("button");
   loadMoreBtn.className = "btn btn-primary mt-3";
   loadMoreBtn.innerText = "Load More";

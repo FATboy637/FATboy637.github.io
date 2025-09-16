@@ -139,4 +139,26 @@ document.addEventListener("DOMContentLoaded", () => {
   if (typeof renderCart === "function") {
     renderCart();
   }
+
+  document.addEventListener("DOMContentLoaded", () => {
+  const deliveryFields = document.getElementById("deliveryFields");
+  const deliveryRadio = document.getElementById("deliveryRadio");
+  const collectionRadio = document.getElementById("collectionRadio");
+
+  function toggleDeliveryFields() {
+    if (collectionRadio.checked) {
+      deliveryFields.style.display = "none";
+    } else {
+      deliveryFields.style.display = "block";
+    }
+  }
+
+  toggleDeliveryFields(); // initial check
+
+  deliveryRadio.addEventListener("change", toggleDeliveryFields);
+  collectionRadio.addEventListener("change", toggleDeliveryFields);
+});
+
+
+  
 });
