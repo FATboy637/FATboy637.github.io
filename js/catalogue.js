@@ -16,7 +16,7 @@ function renderProducts(container, products) {
     return;
   }
 
-  // ✅ Outer container wrapper
+  // Outer container wrapper
   const outerContainer = document.createElement("div");
   outerContainer.className = "container";
 
@@ -26,9 +26,9 @@ function renderProducts(container, products) {
   outerContainer.appendChild(row);
   container.appendChild(outerContainer);
 
-  // ✅ Pagination state
+  // Pagination state
   let visibleCount = 0;
-  const perPage = 8;
+  const perPage = 4;
 
   // ✅ Load More button
   const loadMoreBtn = document.createElement("button");
@@ -104,7 +104,7 @@ function renderProducts(container, products) {
     }
   }
 
-  // ✅ Load first batch automatically
+  // Load first batch automatically
   renderNextBatch();
 }
 
