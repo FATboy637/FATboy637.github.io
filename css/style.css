@@ -45,7 +45,20 @@ body {
   background-color: #ebffd47f;
   /* background-image: url('../images/background.jpg'); */
   font-family: 'Trebuchet MS', sans-serif;
+  padding-top: 100px;
 }
+
+.search-input::placeholder {
+  text-align: center;
+}
+.search-input {
+  text-align: center;
+}
+
+.header {
+  border-radius: 10px;
+}
+
 /* Limit mobile card height */
 @media (max-width: 767.98px) {
   #multiCardCarousel .card {
@@ -152,7 +165,6 @@ body {
     width: 75%;
   }
 }
-
 
 .card {
   height: 100%;
@@ -329,8 +341,8 @@ h4 {
   border-radius: 20px;
   /* color: white; */
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .products {
@@ -341,13 +353,13 @@ h4 {
   border-radius: 20px;
   /* color: white; */
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   /* margin-bottom: 20px; */
 }
 
-/* .intro {
-  /* background-image: url('../images/circuitBoard.jpg'); 
-} */
+.intro {
+  background-image: url('../images/circuitBoard.jpg'); 
+}
 
 .products {
   /* background-image: url('../images/shopping3.jpg'); */
@@ -571,6 +583,68 @@ h5 {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Search bar with icon inside */
+.search-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 15px; /* space for icon */
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+/* search icon inside */
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  cursor: pointer;
+}
+
+/* WhatsApp & Cart icons side by side on small screens */
+.navbar-nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Search bar responsive sizes */
+@media (max-width: 768px) {
+  .search-input {
+    font-size: 14px;
+    padding: 8px 35px 8px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-input {
+    font-size: 18px;
+    padding: 12px 45px 12px 15px;
+  }
+}
+
+/* On large screens, keep logo as normal link */
+@media (max-width: 992px) {
+  .navbar-logo {
+    pointer-events: auto; /* clickable as link */
+  }
+}
+
+/* On small screens, make logo act as toggler only */
+@media (min-width: 991px) {
+  .navbar-logo {
+    cursor: pointer;
+  }
+  .navbar-logo[href] {
+    pointer-events: none; /* prevent going to index.html */
   }
 }
 

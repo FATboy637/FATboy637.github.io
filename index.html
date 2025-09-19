@@ -14,30 +14,37 @@
     <div id="preloader">
       <div class="spinner"></div>
     </div>
-    
-    <section id="target-top">
-       <nav class="navbar navbar-expand-lg fixed-top shadow-sm px-3" style="background-color: black; border-radius: 20px;">
+
+    <div class="header">
+        <div class="container text-center my-3 fixed-top header" style="background-color: black">
             <div class="container-fluid d-flex align-items-center">
-                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <a class="d-flex align-items-center navbar-logo" href="index.html" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <img src="images/logo.jpg" alt="Computer Hub Logo" class="logo me-2" style="height: 50px; border-radius: 10px;">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">   
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 <!-- Search Container below navbar -->
                 <div class="container my-3 d-flex justify-content-center">
-                    <form class="w-80 w-md-50 w-lg-33 d-flex justify-content-center" role="search">
-                        <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success btn-sm search-button" type="button" data-bs-toggle="modal" data-bs-target="#searchModal">Search</button>
-                    </form>
+                    <!-- Search Container below navbar -->
+                    <div class="container my-3 d-flex justify-content-center">
+                        <form class="search-form w-100 w-md-75 w-lg-50" role="search">
+                            <div class="search-wrapper">
+                                <input 
+                                    class="form-control search-input" 
+                                    type="search" 
+                                    placeholder="What are you looking for?" 
+                                    aria-label="Search"
+                                />
+                                <i class="bi bi-search search-icon search-button" type="button" data-bs-toggle="modal" data-bs-target="#searchModal"></i>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
 
-                <div class="collapse navbar-collapse justify-content-end text-center" id="mainNavbar">
+                <nav class="navbar navbar-expand-lg sticky-top shadow-sm px-3" style="background-color: black; border-radius: 20px;">
+
+                <div class="justify-content-end text-center">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="aboutUs.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactUs.html">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="locateUs.html">Locate</a></li>
                         <li class="nav-item">
                             <a class="nav-link position-relative" href="cart.html">
                                 <i class="bi bi-cart3"></i>
@@ -46,11 +53,33 @@
                         </li>
                     </ul>
                 </div>
+    </div>
+    
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm px-3" style="background-color: black; border-radius: 20px;">
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">   
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-center text-center" id="mainNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="aboutUs.html">
+                            <i class="bi bi-telephone-fill"></i> 071 584 8095</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutUs.html">
+                            <i class="bi bi-gear"></i> Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutUs.html">
+                            <i class="bi bi-info-circle"></i> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactUs.html">
+                            <i class="bi bi-person-lines-fill"></i> Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="locateUs.html">
+                            <i class="bi bi-geo-alt"></i> Locate</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutUs.html">
+                            <i class="bi bi-envelope-at"></i> support@cableadvantage.co.za</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
+    </div>
 
-        
-   </section>
+    </section>
 
     <!-- Promostions that run every so often, just uncomment and adjust images and descriptions for the banner -->
 
@@ -65,7 +94,7 @@
             </button>
         </div> -->
 
-    <!-- <div class="container intro fade-in">
+    <div class="container intro fade-in">
         <div class="hero-text">
             <p>
                 Your One-Stop Shop for Tech Solutions. Computer Hub offers a wide range of laptops, 
@@ -74,9 +103,9 @@
                 Get powerful, affordable laptops, gaming PCs, and parts. Reliable, tested, and built for performance—perfect for work, gaming, and upgrades.
             </p>
         </div>
-    </div> -->
+    </div>
 
-    <section id="target-whatWeDo">
+    <section id="target-top">
         <div class="container products fade-in">
             <h4>Shop Our Products</h4>
         </div>
@@ -234,7 +263,7 @@
                     <li><strong>Custom Gaming PCs:</strong> Built-to-order performance PCs for gaming, streaming, or high-performance use—tailored to your needs and budget.</li>
                 </ul>
                 <p class="collab-Text">
-                    Got a question or need help? We're here to assist! <strong>Send us a message on WhatsApp at <a href="https://wa.me/27847061007" target="_blank">084 706 1007</a></strong> or <strong>give us a call</strong> — whether it’s for a quick quote, tech support, or service booking, we’re ready to help.
+                    Got a question or need help? We're here to assist! <strong>Send us a message on WhatsApp at <a href="https://wa.me/27715848095" target="_blank">071 584 8095</a></strong> or <strong>give us a call</strong> — whether it’s for a quick quote, tech support, or service booking, we’re ready to help.
                 </p>
                 <p class="collab-text"><a href="https://cableadvantage.co.za/" target="_blank">For more information click here...</a></p>
             </div>
@@ -293,7 +322,7 @@
                 <h4 class="footer-Headings">Contact Us:</h4>
                 <div class="contactInfo">
                     <p>
-                        <i class="bi bi-telephone-fill"></i> 084 706 1007<br>
+                        <i class="bi bi-telephone-fill"></i> 071 584 8095<br>
                         <i class="bi bi-whatsapp"></i><a href="https://wa.me/27847061007" target="_blank"> 084 706 1007</a><br>
                         <i class="bi bi-envelope-at-fill"></i><a href="mailto:repairs@computerhub.co.za"> repairs@computerhub.co.za</a>
                     </p>
