@@ -12,9 +12,7 @@
 
 <body>
     <div id="background-container">
-        <div class="bg-image active" style="background-image: url('background/backgroundGrey.jpg');"></div>
-        <div class="bg-image" style="background-image: url('background/developer.jpg');"></div>
-        <div class="bg-image" style="background-image: url('background/laptops.jpg');"></div>
+        <div class="bg-image active" style="background-image: url('../background/backgroundGrey.jpg');"></div>
     </div>
 
     <div id="preloader">
@@ -66,7 +64,7 @@
                         <li class="nav-item"><a class="nav-link" href="tel:+27 715848095"><i class="bi bi-telephone-fill"></i> 071 584 8095</a></li>
                         <li class="nav-item"><a class="nav-link" href="aboutUs.html"><i class="bi bi-gear"></i> Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="aboutUs.html"><i class="bi bi-info-circle"></i> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactUs.html"><i class="bi bi-person-lines-fill"></i> Contact</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="contactUs.html"><i class="bi bi-person-lines-fill"></i> Contact</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="locateUs.html"><i class="bi bi-geo-alt"></i> Locate</a></li>
                         <li class="nav-item"><a class="nav-link" href="mailto:help@cableadvantage.co.za"><i class="bi bi-envelope-at"></i> help@cableadvantage.co.za</a></li>
                     </ul>
@@ -77,13 +75,11 @@
     </section>
 
     <!-- HERO SECTION -->
-    <section class="hero-section d-flex align-items-center text-white">
+    <section class="hero-section d-flex align-items-center text-white fade-in">
         <div class="container text-center">
-            <h1 class="display-4 fw-bold">Empower Your Business with Cable Advantage</h1>
+            <h1 class="display-4 fw-bold">Empower Your Technology with ComputerHub & Cable Advantage</h1>
             <p class="lead mt-3">
-                Cable Advantage delivers cutting-edge IT solutions and expert cable 
-                installations tailored to your needs. Our innovative approach ensures 
-                your business thrives with reliable network and management services.
+                ComputerHub and Cable Advantage deliver complete IT and tech solutions—IT support, remote assistance, CCTV, repairs, custom PCs, and web development—keeping your home and business running seamlessly.
             </p>
 
             <!-- Buttons -->
@@ -156,43 +152,42 @@
         <p>While Stocks Last | Built-to-order</p>
     </div> -->
 
-    <section id="target-laptops" data-category="laptops">
-        <div class="container catalogue">
-            <h4>Refurbished Laptops</h4>           
-        </div>
-    </section>
-    <div class="container catalogue">
-        <p><a href="#target-products">Back to Top</a></p>
-    </div>
-    
-    
-    <section id="target-computers" data-category="computers">
-        <!-- Catalogue Header -->
-        <div class="container catalogue">
-            <h4>Desktops and Gaming Rigs</h4>
-        </div>
-    </section>
-    <div class="container catalogue">
-        <p><a href="#target-products">Back to Top</a></p>
-    </div>
+    <section id="target-laptops" data-category="laptops" class="fade-in fade-in-left">
+  <div class="container catalogue">
+    <h4>Refurbished Laptops</h4>
+  </div>
+</section>
+<div class="container catalogue">
+  <p><a href="#target-products">Back to Top</a></p>
+</div>
 
-    <section id="target-network" data-category="network-tools">
-        <div class="container catalogue">
-            <h4>Networks and Tools</h4>
-        </div>
-    </section>
-    <div class="container catalogue">
-        <p><a href="#target-products">Back to Top</a></p>
-    </div>
+<section id="target-computers" data-category="computers" class="fade-in fade-in-right">
+  <div class="container catalogue">
+    <h4>Desktops and Gaming Rigs</h4>
+  </div>
+</section>
+<div class="container catalogue">
+  <p><a href="#target-products">Back to Top</a></p>
+</div>
 
-    <section id="target-accessories" data-category="accessories">
-        <div class="container catalogue">
-            <h4>Accessories</h4>
-        </div>
-    </section>
-    <div class="container catalogue">
-        <p><a href="#target-products">Back to Top</a></p>
-    </div>
+<section id="target-network" data-category="network-tools" class="fade-in fade-in-up">
+  <div class="container catalogue">
+    <h4>Networks and Tools</h4>
+  </div>
+</section>
+<div class="container catalogue">
+  <p><a href="#target-products">Back to Top</a></p>
+</div>
+
+<section id="target-accessories" data-category="accessories" class="fade-in fade-in-zoom">
+  <div class="container catalogue">
+    <h4>Accessories</h4>
+  </div>
+</section>
+<div class="container catalogue">
+  <p><a href="#target-products">Back to Top</a></p>
+</div>
+
    
     <!-- <div class="container storeFront fade-in">
         <div class="row justify-content-center">
@@ -261,9 +256,46 @@
                 <p class="collab-text"><a href="https://cableadvantage.co.za/" target="_blank">For more information click here...</a></p>
             </div>
         </div>
-    
 
-     <div class="container collab fade-in">
+        <div class="container collab fade-in">
+            <h4>Get in Touch</h4>
+        </div>
+
+        <div class="container formGroup">
+            <form action="https://api.web3forms.com/submit" method="POST" class="row g-3">
+                <input type="hidden" name="access_key" value="126bb3ff-f476-4e17-a090-c80f5ad6de3d">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input name="name" type="text" class="form-control" id="name" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="surname" class="form-label">Surname</label>
+                    <input name="surname" type="text" class="form-control" id="surname">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input name="email" type="Email" class="form-control" id="email" placeholder="abc@email.com">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="contactNumber" class="form-label">Contact Number</label>
+                    <input name="Contact Number" type="tel" class="form-control" id="contactNumber" placeholder="Your Number" required>
+                </div>
+
+                <div class="col-12">
+                    <label for="query" class="form-label">What is Your Query?</label>
+                    <textarea name="query" class="form-control" id="description" rows="3" required></textarea>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    <div class="container collab fade-in">
         <div class="">
             <h4>Let's Collaborate!</h4>
             <p class="collab-Text">
@@ -276,6 +308,8 @@
             </a>
         </p>
     </div>
+
+
      
     <div class="container-fluid footer fade-in">
       
@@ -317,7 +351,7 @@
                     <p>
                         <i class="bi bi-telephone-fill"></i> 071 584 8095<br>
                         <i class="bi bi-whatsapp"></i><a href="https://wa.me/27847061007" target="_blank"> 084 706 1007</a><br>
-                        <i class="bi bi-envelope-at-fill"></i><a href="mailto:repairs@computerhub.co.za"> repairs@computerhub.co.za</a>
+                        <i class="bi bi-envelope-at-fill"></i><a href="mailto:help@computerhub.co.za"> help@computerhub.co.za</a>
                     </p>
 
                     <h4 class="footer-Headings">Quick Links:</h4>
@@ -369,6 +403,7 @@
     <script src="js/search.js"></script>
     <script src="js/specials.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/fadein.js"></script>
     <script src="js/catalogue.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/background.js"></script>
