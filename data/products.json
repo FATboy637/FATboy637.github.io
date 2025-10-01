@@ -89,6 +89,36 @@
     ]
   },
 
+  {
+    "id": "asusM515Ryzen3",
+    "name": "Asus M515 Notebook",
+    "price": "5500",
+    "image": "images/asusM515Ryzen3-removebg-preview.png",
+    "brand": "Asus",
+    "category": "laptops",
+    "specs": [
+      "Ryzen 3 3250U @ 2.60GHz",
+      "8GB RAM",
+      "256GB NVMe SSD",
+      "Windows 11 Pro"
+    ]
+  },
+
+  {
+    "id": "dell-vostro-15",
+    "name": "Dell Vostro 15",
+    "price": "6000",
+    "image": "images/dellVostroLaptop-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel Core i5-7200U @ 2.70GHz",
+      "16GB RAM",
+      "500GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
 
   {
     "id": "dato-ddr4",
@@ -143,6 +173,90 @@
     "specs": [
       "Ultra-Slim Profile",
       "Protective Padding",
+      "Zippered Closure"
+    ]
+  },
+
+   {
+    "id": "laptopBagBarron",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopbagBarron-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+    {
+    "id": "laptopBagGrey",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopBagGrey-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+      {
+    "id": "laptopBagHardShell",
+    "name": "Laptop Bag",
+    "price": 400,
+    "image": "images/laptopBagHardShell-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Thick Outer Shell",
+      "Super Durable Design",
+      "Zippered Closure"
+    ]
+  },
+
+      {
+    "id": "laptopBagPowerlandGreenBrown",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopBagPowerlandGreen-Brown-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+      {
+    "id": "laptopBagPowerlandLeather",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopBagPowerlandLeather-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+      {
+    "id": "laptopBagPowerlandBrown",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopPowerlandBrown-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
       "Zippered Closure"
     ]
   },
@@ -223,17 +337,16 @@
   },
 
   {
-    "id": "aocMonitor",
-    "name": "AOC Monitor",
-    "price": 1400,
-    "image": "images/aocMonitor2-removebg-preview.png",
+    "id": "dellMonitorNOHDMI",
+    "name": "Dell 22\" Monitor",
+    "price": 1200,
+    "image": "images/dell22inchMonitorNoHDMI-removebg-preview.png",
     "brand": "aoc",
     "category": "computers",
     "specs": [
-      "24\" Screen",
-      "Bezelless Design",
-      "1920x1080",
-      "Out of Stock"
+      "VGA and DVI",
+      "Clean Design",
+      "1920x1080"
     ]
   },
 
@@ -261,7 +374,7 @@
     "specs": [
       "22\" Display",
       "Full HD",
-      "VA Panel"
+      "HDMI, VGA and DVI"
     ]
   },
 
@@ -292,40 +405,25 @@
   },
 
   {
-    "id": "apacer-ssd-128",
-    "name": "Apacer SSD",
-    "price": 270,
-    "image": "images/128gbSSD-removebg-preview.png",
-    "brand": "Apacer",
+    "id": "hiksemi-128",
+    "name": "HikSemi SSD",
+    "price": 355,
+    "image": "images/hiksemi128GBSSD-removebg-preview.png",
+    "brand": "HikSemi",
     "category": "computers",
     "specs": [
       "2.5\" SATA",
       "6GB/s Data Transfer",
-      "128GB",
-      "Out of Stock"
+      "128GB"
     ]
   },
 
   {
-    "id": "apacer-ssd-256",
-    "name": "Apacer SSD",
-    "price": 445,
-    "image": "images/apacerSSD-removebg-preview.png",
-    "brand": "Apacer",
-    "category": "computers",
-    "specs": [
-      "2.5\" SATA",
-      "6GB/s Data Transfer",
-      "256GB"
-    ]
-  },
-
-  {
-    "id": "netac-ssd-256",
-    "name": "Netac SSD",
-    "price": 445,
-    "image": "images/netacSSD256-removebg-preview.png",
-    "brand": "Netac",
+    "id": "hiksemi-256",
+    "name": "HikSemi SSD",
+    "price": 450,
+    "image": "images/hiksemi256GBSSD-removebg-preview.png",
+    "brand": "HikSemi",
     "category": "computers",
     "specs": [
       "2.5\" SATA",
@@ -333,13 +431,12 @@
       "256GB"
     ]
   },
-
   {
-    "id": "apacer-ssd-512",
-    "name": "Apacer SSD",
-    "price": 730,
-    "image": "images/apacer512SSD-removebg-preview.png",
-    "brand": "Apacer",
+    "id": "hiksemi-512",
+    "name": "HikSemi SSD",
+    "price": 855,
+    "image": "images/hiksemi512GBSSD-removebg-preview.png",
+    "brand": "HikSemi",
     "category": "computers",
     "specs": [
       "2.5\" SATA",
@@ -377,6 +474,40 @@
     ]
   },
 
+  
+  {
+    "id": "mercuSysRouter",
+    "name": "Mercusys MR30G Router",
+    "price": 600,
+    "image": "images/mercusysRouter-removebg-preview.png",
+    "brand": "TP-Link",
+    "category": "network-tools",
+    "specs": [
+      "Dual-Band Wifi",
+      "Full Gigabit Ports",
+      "MU-MIMO Technology",
+      "IPTV and IPv6 Supported",
+      "Easy App Control"
+    ]
+  },
+
+  
+  {
+    "id": "tpLinkRouter",
+    "name": "TP-Link MR600 Router",
+    "price": 600,
+    "image": "images/tpLinkRouter-removebg-preview.png",
+    "brand": "TP-Link",
+    "category": "network-tools",
+    "specs": [
+      "4G+ CAT6 Up to 300 Mbps",
+      "Full Gigabit Ports",
+      "MU-MIMO Technology",
+      "Advanced Security with WPA3",
+      "Afrihost Registered"
+    ]
+  },
+
   {
     "id": "tplink-switch-5-port",
     "name": "TP-Link Desktop Switch",
@@ -410,6 +541,66 @@
   },
 
   {
+    "id": "hiLookBulletCamera",
+    "name": "HiLook Turbo HD Bullet Camera",
+    "price": 310,
+    "image": "images/hiLookBulletCamera-removebg-preview.png",
+    "brand": "HiLook",
+    "category": "network-tools",
+    "specs": [
+      "HD Video Output",
+      "HDTCI Technology",
+      "IP66 Waterproof",
+      "EXIR Technology"
+    ]
+  },
+
+  {
+    "id": "hiLookTurretCamera",
+    "name": "HiLook Turbo HD Turret Camera",
+    "price": 300,
+    "image": "images/hiLookTurretCamera-removebg-preview.png",
+    "brand": "HiLook",
+    "category": "network-tools",
+    "specs": [
+      "HD Video Output",
+      "HDTCI Technology",
+      "Easy Installation",
+      "EXIR Technology"
+    ]
+  },
+
+  {
+    "id": "hikVisionPSU",
+    "name": "HikVision 8 Channel Power Supply",
+    "price": 350,
+    "image": "images/hikVision8ChannelPSU-removebg-preview.png",
+    "brand": "HikVision",
+    "category": "network-tools",
+    "specs": [
+      "Switching Power Supply",
+      "150-285 VAC Input",
+      "47-63Hz 1A Max",
+      "12VDC 5A"
+    ]
+  },
+
+    {
+    "id": "junctionBox",
+    "name": "Junction Box",
+    "price": 40,
+    "image": "images/junctionBox-removebg-preview.png",
+    "brand": "generic",
+    "category": "network-tools",
+    "specs": [
+      "Durable Junction Box",
+      "Multi-Entry Design",
+      "Secure Enclosure",
+      "Easy Installation"
+    ]
+  },
+
+  {
     "id": "rj45-connectors",
     "name": "RJ45 Connectors",
     "price": 130,
@@ -431,6 +622,139 @@
     "category": "network-tools",
     "specs": [
       "100 Pack"
+    ]
+  },
+  
+  {
+    "id": "sideCutters",
+    "name": "Bebona Side Cutter",
+    "price": 100,
+    "image": "images/sideCutters-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Chrome Vanadium",
+      "200mm",
+      "Precision Machined",
+      "Non-Slip Ergonomic Handle Grips"
+    ]
+  },
+
+    {
+    "id": "6PCInsulatedScrewdrivers",
+    "name": "6 Piece Insulated Screwdriver Set",
+    "price": 250,
+    "image": "images/6PCInsulatedScrewdrivers-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Magnetic Tips",
+      "Ergonomic Anti-Slip Handles",
+      "Ideal for DIY and Professional Use",
+      "Slotted Phillips"
+    ]
+  },
+
+  {
+    "id": "9PChexKeySet",
+    "name": "9 Piece Hex Key Set",
+    "price": 100,
+    "image": "images/9pcHexKeySet-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Highly Durable",
+      "Stainless Steel",
+      "Chamfered Ball Point Heads"
+    ]
+  },
+
+  {
+    "id": "aiyiWireStripper",
+    "name": "Aiyi Wire Stripper",
+    "price": 100,
+    "image": "images/aiyiWireStrippers-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Highly Durable",
+      "2 in 1 Tool",
+      "Ergonomic Handles"
+    ]
+  },
+
+    {
+    "id": "5PCPlierSet",
+    "name": "5 Piece Mini Plier Set",
+    "price": 130,
+    "image": "images/5pcPlierSet-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Spring Loaded Hinge",
+      "Ergonomic Anti-Slip Handles",
+      "Drop Forged, Heat Treated Steel",
+      "Precision-Machined Jaws"
+    ]
+  },
+
+    {
+    "id": "aiyi5PCdrillBits",
+    "name": "5 Piece Concrete Drill Bit Set",
+    "price": 120,
+    "image": "images/aiyiDrillBits-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "High-Performance Design",
+      "Durable Construction",
+      "Precision Drilling",
+      "SDS Plus Shank"
+    ]
+  },
+
+    {
+    "id": "clawHammer",
+    "name": "Claw Hammer",
+    "price": 80,
+    "image": "images/clawHammer-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Versatile Claw Hammer",
+      "Durable Steel Head",
+      "Anti-Slip Handle",
+      "Reliable & Sturdy"
+    ]
+  },
+
+    {
+    "id": "pipeBender",
+    "name": "PVC Pipe Bender",
+    "price": 100,
+    "image": "images/conduitBender-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Durable Construction",
+      "Smooth Bends",
+      "Easy to Use",
+      "Reliable Results"
+    ]
+  },
+
+    {
+    "id": "insulatedScrewdriver",
+    "name": "Insulated Screwdriver",
+    "price": 50,
+    "image": "images/insulatedScrewdriver-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "High-Quality Insulation",
+      "Durable Steel Shaft",
+      "Precision Tip",
+      "Comfort Grip Handle"
     ]
   },
 
@@ -477,6 +801,49 @@
   },
 
   {
+    "id": "insulationTape",
+    "name": "Insulation Tape",
+    "price": 35,
+    "image": "images/insulationTape-removebg-preview.png",
+    "brand": "generic",
+    "category": "network-tools",
+    "specs": [
+      "High Quality",
+      "Multiple Uses",
+      "Available in Black or White"
+    ]
+  },
+
+  {
+    "id": "solderWire",
+    "name": "Solder Wire",
+    "price": 100,
+    "image": "images/solderWire-removebg-preview.png",
+    "brand": "generic",
+    "category": "network-tools",
+    "specs": [
+      "Type C Active Solder Wire",
+      "1.0mm Diameter",
+      "Sn63%"
+    ]
+  },
+
+  {
+    "id": "miniFlashlight",
+    "name": "6 Piece Insulated Screwdriver Set",
+    "price": 40,
+    "image": "images/miniFlashLight-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "One Click Switch",
+      "Long Lasting Battery Life",
+      "Type C Rechargeable",
+      "Clip On Back"
+    ]
+  },
+
+  {
     "id": "ethernet-cable",
     "name": "Ethernet Cable",
     "price": 50,
@@ -498,6 +865,34 @@
     "category": "network-tools",
     "specs": [
       "SC to SC Connector",
+      "UPC",
+      "Low Insertion Loss"
+    ]
+  },
+
+  {
+    "id":"5mFiberCable",
+    "name": "5m Fiber Optic Cable",
+    "price": 150,
+    "image": "images/5mFibreOptic-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "SC to LC Connector",
+      "UPC",
+      "Low Insertion Loss"
+    ]
+  },
+
+  {
+    "id":"10mFiberCable",
+    "name": "5m Fiber Optic Cable",
+    "price": 150,
+    "image": "images/10mFibreOptic-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "SC to LC Connector",
       "UPC",
       "Low Insertion Loss"
     ]
@@ -546,6 +941,21 @@
       "Cable Tester",
       "Cable Stripper",
       "Coax Stipper"
+    ]
+  },
+
+   {
+    "id": "digitalMultimeter",
+    "name": "Digital Multimeter",
+    "price": 180,
+    "image": "images/digitalMultimeter-removebg-preview.png",
+    "brand": "Generic",
+    "category": "network-tools",
+    "specs": [
+      "Data Hold",
+      "Large LCD Display",
+      "Auto Zero Function",
+      "Single 32 Position Switch for Function and Range"
     ]
   },
 
@@ -711,10 +1121,10 @@
   },
 
 {
-    "id": "wirelessKeyboardMouseSet",
-    "name": "2.4Ghz Wireless Keyboard and Mouse Set",
+    "id": "aoasM1000keyboard",
+    "name": "AOAS M-1000 Gaming Keyboard",
     "price": 250,
-    "image": "images/wirelessMouseandKeyboarf-removebg-preview.png",
+    "image": "images/aoasM1000keyboard-removebg-preview.png",
     "brand": "generic",
     "category": "accessories",
     "specs": [
@@ -886,10 +1296,58 @@
   },
 
 {
-    "id": "cj2.4WirelessMouse",
-    "name": "CJ 2.4Ghz Wireless Mouse",
+    "id": "aoasBTMouseB-1008",
+    "name": "AOAS Wireless Mouse",
     "price": 80,
-    "image": "images/cjWireLess-removebg-preview.png",
+    "image": "images/aoasB1008BeigeMouse-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB Receiver",
+      "Optical",
+      "Low Power Indicator",
+      "10m Range",
+      "Out of Stock"
+    ]
+  },
+
+  {
+    "id": "aoasBTMouseB-1008",
+    "name": "AOAS Wireless Mouse",
+    "price": 80,
+    "image": "images/aoasB1008PinkMouse-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB Receiver",
+      "Optical",
+      "Low Power Indicator",
+      "10m Range",
+      "Out of Stock"
+    ]
+  },
+
+  {
+    "id": "aoasBTMouseB-1008",
+    "name": "AOAS Wireless Mouse",
+    "price": 80,
+    "image": "images/aoasB1008BlackMouse-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "USB Receiver",
+      "Optical",
+      "Low Power Indicator",
+      "10m Range",
+      "Out of Stock"
+    ]
+  },
+
+  {
+    "id": "aoasBTMouseB-1008",
+    "name": "AOAS Wireless Mouse",
+    "price": 80,
+    "image": "images/aoasB1008BlueMouse-removebg-preview.png",
     "brand": "generic",
     "category": "accessories",
     "specs": [
@@ -914,35 +1372,62 @@
       "1600/2400/3200 DPI",
       "Compatible with Windows, MAC and Linux"
     ]
-  },     
+  },
 
-{
-    "id": "cj2.4WirelessMouse2",
-    "name": "CJ 2.4Ghz Wireless Mouse",
-    "price": 80,
-    "image": "images/wireLessCJ-removebg-preview.png",
+  {
+    "id": "yelanderWiredMouse",
+    "name": "Yelander Optical Wired Mouse",
+    "price": 60,
+    "image": "images/yelanderWiredMouse-removebg-preview.png",
     "brand": "generic",
     "category": "accessories",
     "specs": [
-      "USB Reciever",
-      "Optical",
-      "Low Power Indicator",
-      "3200 DPI",
-      "Out of Stock"
+      "High Durability",
+      "Up to 3200 DPI",
+      "High Precision",
+      "Compatible with Windows, MAC and Linux"
+    ]
+  }, 
+
+  {
+    "id": "sanDiskUSB64GB",
+    "name": "SanDisk Cruzer Blade 64GB",
+    "price": 110,
+    "image": "images/sanDisk64GBUSB-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Reliable and Compact",
+      "USB 2.0",
+      "Windows and MAC Compatible"
     ]
   },
 
-{
-    "id": "weiboWiredMouse",
-    "name": "Weibo Wired Mouse",
-    "price": 50,
-    "image": "images/wiredMouse-removebg-preview.png",
+   {
+    "id": "hiksemiUSB64GB",
+    "name": "HikSemi PULLY 64GB",
+    "price": 110,
+    "image": "images/hiksemi64GBUSB-removebg-preview.png",
     "brand": "generic",
     "category": "accessories",
     "specs": [
-      "New Gen Sensor Chip",
-      "1600 DPI",
-      "Support Windows, MAC and Linux"
+      "Reliable and Compact",
+      "USB 3.2",
+      "Windows and MAC Compatible"
+    ]
+  },
+
+    {
+    "id": "hiksemiUSB128GB",
+    "name": "HikSemi PULLY 128GB",
+    "price": 110,
+    "image": "images/hiksemi128GBUSB-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Reliable and Compact",
+      "USB 3.2",
+      "Windows and MAC Compatible"
     ]
   },
 
@@ -958,6 +1443,36 @@
       "Up to 5GBps",
       "Backwards Compatible with USB 2.0",
       "USB 3.0"
+    ]
+  },
+
+  
+    {
+    "id": "hddEnclosure",
+    "name": "HDD Enclosure",
+    "price": 190,
+    "image": "images/hddEnclosure-removebg-preview.png",
+    "brand": "Generic",
+    "category": "accessories",
+    "specs": [
+      "Compatible with 2.5 Inch Drives",
+      "Support Up to 1TB Drives",
+      "Driverless"
+    ]
+  },
+
+  
+    {
+    "id": "steelhddEnclosure",
+    "name": "HDD Enclosure",
+    "price": 200,
+    "image": "images/steelHDDEnclosure-removebg-preview.png",
+    "brand": "Generic",
+    "category": "accessories",
+    "specs": [
+      "Compatible with 2.5 Inch Drives",
+      "Support Up to 1TB Drives",
+      "Driverless"
     ]
   },
 
@@ -999,6 +1514,34 @@
     "specs": [
       "12 Watt",
       "Compatible with: Apple Watch, iPad, iPhone and iPod"
+    ]
+  },
+
+  {
+    "id": "nestyEarbuds",
+    "name": "Nesty Earbuds MH-200 Blast Series",
+    "price": 310,
+    "image": "images/nestyEarbuds-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "Quick Pairing Link",
+      "Comfortable to Wear",
+      "6 Hour Playtime"
+    ]
+  },
+
+  {
+    "id": "klGoEarbuds",
+    "name": "KLGO Earbuds",
+    "price": 150,
+    "image": "images/klGoEarbuds-removebg-preview.png",
+    "brand": "generic",
+    "category": "accessories",
+    "specs": [
+      "True Wireless",
+      "Powerful Microphone",
+      "300H Standby"
     ]
   },
 
@@ -1146,122 +1689,46 @@
   },
 
     {
-    "id": "hddEnclosure",
-    "name": "HDD Enclosure",
-    "price": 190,
-    "image": "images/hddEnclosure-removebg-preview.png",
+    "id": "klGoTypeCcable",
+    "name": "KLGO Type C Cable",
+    "price": 100,
+    "image": "images/klGoTypeCcable.png",
     "brand": "Generic",
     "category": "accessories",
     "specs": [
-      "Compatible with 2.5 Inch Drives",
-      "Support Up to 1TB Drives",
-      "Driverless"
+      "Fast Data Transfer",
+      "Fast Charging",
+      "High Durability"
+    ]
+  },
+
+    {
+    "id": "multiplugAdapter",
+    "name": "Multiplug Adapter",
+    "price": 220,
+    "image": "images/multiPlugAdapter-removebg-preview.png",
+    "brand": "Generic",
+    "category": "accessories",
+    "specs": [
+      "Versatile Power Solution",
+      "Durable Build",
+      "Plug & Play"
     ]
   },
 
   {
-    "id": "1060Combo",
-    "name": "Winterfreeze Gaming Combo",
-    "price": 13000,
-    "image": "winterFreeze/1060Combo-removebg-preview.png",
+    "id": "twoPinPlugAdapter",
+    "name": "Two-Pin Plug Adapter",
+    "price": 35,
+    "image": "images/twoPinPlugAdapter-removebg-preview.png",
     "brand": "Generic",
-    "category": "winterFreeze",
+    "category": "accessories",
     "specs": [
-      "Comes with Gigabyte Gaming PC",
-      "T-Wolf 4 in 1 Gaming Combo",
-      "AOC 24\" Monitor",
-      "K8 Gaming Mouse pad"
+      "Compact Two-Pin Adapter",
+      "Durable Construction",
+      "Lightweight & Portable"
     ]
-  },
-
-  {
-    "id": "evetechCombo",
-    "name": "Desktop Combo",
-    "price": 4900,
-    "image": "winterFreeze/evetechCombo-removebg-preview.png",
-    "brand": "Generic",
-    "category": "winterFreeze",
-    "specs": [
-      "Comes with a Desktop PC",
-      "22\" Dell Monitor",
-      "Wired Keyboard and Mouse Set"
-    ]
-  },
-
-  {
-    "id": "mecerComboWinter",
-    "name": "Mecer Desktop Combo",
-    "price": 2000,
-    "image": "winterFreeze/mecerCombo-removebg-preview.png",
-    "brand": "Generic",
-    "category": "winterFreeze",
-    "specs": [
-      "Mecer Desktop Combo @ Discounted Price",
-      "Intel i3-3220 @ 3.0GHz",
-      "4GB RAM",
-      "256GB SSD",
-      "Windows 10 Pro"
-    ]
-  },
-
-  {
-    "id": "redDesktopCombo",
-    "name": "Low End Desktop Combo",
-    "price": 2000,
-    "image": "winterFreeze/cncCombo-removebg-preview.png",
-    "brand": "Generic",
-    "category": "winterFreeze",
-    "specs": [
-      "Low End Desktop",
-      "19\" LG Screen",
-      "Wired Keyboard and Mouse Set"
-    ]
-  },
-
-  {
-    "id": "hpWinterFreeze",
-    "name": "Winterfreeze HP ProBook 4530s",
-    "price": 1600,
-    "image": "winterFreeze/HPProbook-removebg-preview.png",
-    "brand": "Generic",
-    "category": "winterFreeze",
-    "specs": [
-      "Intel i3-2350M @ 2.3GHz",
-      "4GB RAM",
-      "256GB SSD",
-      "Windows 10 Pro"
-    ]
-  },
-
-  {
-    "id": "k8Winterfreeze",
-    "name": "K8 Gaming Mouse Pad",
-    "price": 100,
-    "image": "winterFreeze/1060Combo-removebg-preview.png",
-    "brand": "Generic",
-    "category": "winterFreeze",
-    "specs": [
-      "High Quality",
-      "Wear Resistant",
-      "Bottom Non-SLip Design",
-      "70cmx30cmx0.3cm"
-    ]
-  },
-
-  {
-    "id": "harwaWinterfreeze",
-    "name": "Harwa Bluetooth Speaker",
-    "price": 110,
-    "image": "winterFreeze/harwaBTspeaker-removebg-preview.png",
-    "brand": "Generic",
-    "category": "winterFreeze",
-    "specs": [
-      "Wireless",
-      "Up to 4 Hours Playtime",
-      "Play from USB Storage Devices",
-      "Splashproof"
-    ]
-  } 
+  }
 ]
 
 
