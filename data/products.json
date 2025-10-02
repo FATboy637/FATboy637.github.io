@@ -29,7 +29,7 @@
     ]
   },
 
-   {
+  {
     "id": "hp-4530s-500gb",
     "name": "HP ProBook 4530s",
     "price": 1910,
@@ -44,7 +44,7 @@
     ]
   },
 
-   {
+  {
     "id": "hp-4530s-500gb",
     "name": "HP ProBook 4530s",
     "price": 2180,
@@ -59,7 +59,7 @@
     ]
   },
 
-   {
+  {
     "id": "dellLatitude5280",
     "name": "Dell Latitude 5280",
     "price": 4700,
@@ -114,6 +114,51 @@
     "specs": [
       "Intel Core i5-7200U @ 2.70GHz",
       "16GB RAM",
+      "500GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+    {
+    "id": "hpNotebook",
+    "name": "Hp Notebook",
+    "price": "6000",
+    "image": "images/hpNotebook-removebg-preview.png",
+    "brand": "HP",
+    "category": "laptops",
+    "specs": [
+      "Intel Core i5 12th",
+      "8GB RAM",
+      "500GB SSD",
+      "Windows 11 Pro"
+    ]
+  },
+
+    {
+    "id": "prolineNotebook",
+    "name": "Proline Notebook",
+    "price": "3000",
+    "image": "images/prolineNotebook-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel Core i3 10th Gen",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 10 Pro"
+    ]
+  },
+
+    {
+    "id": "dell-vostro-15",
+    "name": "Dell Notebook",
+    "price": "6000",
+    "image": "images/dellNotebook-removebg-preview.png",
+    "brand": "Dell",
+    "category": "laptops",
+    "specs": [
+      "Intel Core i5 4th Gen",
+      "8GB RAM",
       "500GB SSD",
       "Windows 10 Pro"
     ]
@@ -236,7 +281,7 @@
       {
     "id": "laptopBagPowerlandLeather",
     "name": "Laptop Bag",
-    "price": 300,
+    "price": 350,
     "image": "images/laptopBagPowerlandLeather-removebg-preview.png",
     "brand": "Generic",
     "category": "laptops",
@@ -260,6 +305,77 @@
       "Zippered Closure"
     ]
   },
+
+  {
+    "id": "laptopBagPowerlandBlackGrey",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopBagPowerlandBlackGrey-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+  {
+    "id": "LaptopBagPowerlandBlackSmall",
+    "name": "Laptop Bag",
+    "price": 280,
+    "image": "images/LaptopBagPowerlandBlackSmall-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+  {
+    "id": "laptopBagPowerlandKhakiBrown",
+    "name": "Laptop Bag",
+    "price": 300,
+    "image": "images/laptopBagPowerlandKhakiBrown-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+  {
+    "id": "laptopBagPowerlandKhaki",
+    "name": "Laptop Bag",
+    "price": 280,
+    "image": "images/laptopBagPowerlandKhaki-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
+  {
+    "id": "laptopBagPowerlandSmallBrown",
+    "name": "Laptop Bag",
+    "price": 280,
+    "image": "images/laptopBagPowerlandSmallBrown-removebg-preview.png",
+    "brand": "Generic",
+    "category": "laptops",
+    "specs": [
+      "Highly Durable Design",
+      "Spacious",
+      "Zippered Closure"
+    ]
+  },
+
 
   {
     "id": "combo-special",
