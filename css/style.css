@@ -725,6 +725,15 @@ h5 {
   text-align: center;
 }
 
+.viewAll {
+  position: relative;
+  margin: auto;
+  padding: 10px 0;
+  border-radius: 5px;
+  color: rgba(172, 198, 30);
+  text-align: center;
+  margin-top: 10px;
+}
 
 
 
