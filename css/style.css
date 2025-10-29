@@ -111,7 +111,7 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  z-index: 1; /* keeps hero behind next sections */
+  z-index: 1;
   overflow: hidden;
 }
 
@@ -128,6 +128,11 @@ body {
   z-index: 2; /* keeps hero text above overlay */
 }
 
+[data-category] {
+  position: relative;
+  z-index: 3;
+}
+
 /* Backgrounds per category */
 .hero-section.laptops {
   background: url('../images/randoLaptop.jpg') no-repeat center center/cover;
@@ -142,10 +147,8 @@ body {
 }
 
 .hero-section.accessories {
-  background: url('../images/peripherals.jpg') no-repeat center center/cover;
+  background: url('../images/accessories.jpg') no-repeat center center/cover;
 }
-
-
 
 .search-input::placeholder {
   text-align: center;
