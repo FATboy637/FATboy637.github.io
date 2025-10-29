@@ -16,88 +16,78 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
-  <body data-category="laptops">
+  <body>
     <!-- Preloader -->
     <div id="preloader">
       <div class="spinner"></div>
     </div>
 
     <!-- Header + Navbar -->
-    <div class="header">
-      <nav
-        class="navbar navbar-expand-lg fixed-top shadow-sm px-3"
-        style="background-color: black; border-radius: 10px"
-      >
-        <div class="container-fluid d-flex align-items-center">
-          <a class="navbar-brand d-flex align-items-center" href="index.html">
-            <img
-              src="images/logo.jpg"
-              alt="Computer Hub Logo"
-              class="logo me-2"
-              style="height: 50px; border-radius: 10px"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainNavbar"
-            aria-controls="mainNavbar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      <div class="header">
+        <nav
+          class="navbar navbar-expand-lg fixed-top shadow-sm px-3"
+        >
+          <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img
+                src="images/logo.jpg"
+                alt="Computer Hub Logo"
+                class="logo me-2"
+                style="height: 50px; border-radius: 10px"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="mainNavbar"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactUs.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="locateUs.html">Locate</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link position-relative" href="cart.html">
-                  <i class="bi bi-cart3"></i>
-                  <span
-                    id="cart-count"
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
-                    >0</span
-                  >
-                </a>
-              </li>
-            </ul>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="mainNavbar"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutUs.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactUs.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="locateUs.html">Locate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link position-relative" href="cart.html">
+                    <i class="bi bi-cart3"></i>
+                    <span
+                      id="cart-count"
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                      >0</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
+        </nav>
+      </div>
+    
+    <section class="hero-section laptops d-flex align-items-center text-white fade-in">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Affordable. Reliable. Sustainable – Discover the Power of Refurbished Laptops</h1>
+            <p class="lead mt-3">
+                Refurbished laptops deliver powerful performance and dependable quality at a fraction of the cost of new devices. Ideal for students, professionals, and everyday users, these laptops are thoroughly tested and restored to meet high standards.
+            </p>
         </div>
-      </nav>
-    </div>
+    </section>
 
-    <!-- Catalogue Header -->
-    <div class="container catalogue fade-in">
-      <h4>
-        Affordable. Reliable. Sustainable – Discover the Power of Refurbished
-        Laptops
-      </h4>
-      <p class="catText">
-        Refurbished laptops deliver powerful performance and dependable quality
-        at a fraction of the cost of new devices. Ideal for students,
-        professionals, and everyday users, these laptops are thoroughly tested
-        and restored to meet high standards.
-      </p>
-    </div>
-
-    <section
-      id="target-laptops"
-      data-category="laptops"
-      class="fade-in fade-in-left"
-    >
+    <section id="target-laptops" data-category="laptops" class="fade-in fade-in-left">
       <div class="container catalogue">
         <h4>Refurbished Laptops</h4>
       </div>
@@ -242,9 +232,9 @@
       </a>
     </div>
     <!-- Scripts -->
-    <script src="js/script.js"></script>
-    <script src="js/products.js"></script>
-    <script src="js/cart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/products.js" defer></script>
+    <script src="js/cart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
   </body>
 </html>

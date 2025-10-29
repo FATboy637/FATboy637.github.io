@@ -63,7 +63,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  padding-top: 40px;
+  padding-top: 30px;
   height: 100%;
 }
 
@@ -99,36 +99,52 @@ body {
   opacity: 1;
 }
 
-.hero-section {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .background {
     height: 100vh; /* full screen */
     width: 100%;
 }
 
 .hero-section {
-  height: 100vh;
-  background: url('../background/pcBuild.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   position: relative;
+  z-index: 1; /* keeps hero behind next sections */
+  overflow: hidden;
 }
 
 .hero-section::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay for text readability */
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .hero-section .container {
   position: relative;
-  z-index: 2;
+  z-index: 2; /* keeps hero text above overlay */
 }
+
+/* Backgrounds per category */
+.hero-section.laptops {
+  background: url('../images/randoLaptop.jpg') no-repeat center center/cover;
+}
+
+.hero-section.computers {
+  background: url('../images/desktops.jpg') no-repeat center center/cover;
+}
+
+.hero-section.network {
+  background: url('../images/networkAndTools.jpg') no-repeat center center/cover;
+}
+
+.hero-section.accessories {
+  background: url('../images/peripherals.jpg') no-repeat center center/cover;
+}
+
 
 
 .search-input::placeholder {
