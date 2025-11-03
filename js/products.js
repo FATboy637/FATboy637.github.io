@@ -39,7 +39,7 @@ function renderProducts(container, products) {
 
   // Determine batch size based on screen width
   function getBatchSize() {
-    return window.innerWidth < 768 ? 8 : 12;
+    return window.innerWidth < 768 ? 4 : 8;
   }
 
   function renderBatch() {
