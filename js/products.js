@@ -18,7 +18,6 @@ function renderProducts(container, products) {
     return;
   }
 
-  // Outer container and row
   const outerContainer = document.createElement("div");
   outerContainer.className = "container";
   const row = document.createElement("div");
@@ -26,7 +25,6 @@ function renderProducts(container, products) {
   outerContainer.appendChild(row);
   container.appendChild(outerContainer);
 
-  // Load More button
   const loadMoreWrapper = document.createElement("div");
   loadMoreWrapper.className = "text-center mt-4 mb-5";
   const loadMoreBtn = document.createElement("button");
@@ -61,10 +59,9 @@ function renderProducts(container, products) {
       const body = document.createElement("div");
       body.className = "card-body";
 
-      // Updated title and specs styling
       const title = document.createElement("h4");
       title.className = "card-title product-Title";
-      title.innerText = `${product.name} - R${product.price}`; // combined name and price
+      title.innerText = `${product.name} - R${product.price}`;
 
       const specList = document.createElement("ul");
       product.specs.forEach((spec) => {
@@ -79,7 +76,6 @@ function renderProducts(container, products) {
       button.innerText = "Add to Cart";
       button.addEventListener("click", () => addToCart(product));
 
-      // Append elements in correct order
       body.appendChild(title);
       body.appendChild(specList);
       body.appendChild(button);
@@ -109,7 +105,6 @@ function renderProducts(container, products) {
     });
   });
 
-  // Optional: adjust batch size on resize
   window.addEventListener("resize", () => {
     if (currentIndex < products.length && !loadMoreWrapper.style.display) {
       loadMoreWrapper.style.display = "block";
